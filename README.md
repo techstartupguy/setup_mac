@@ -27,6 +27,8 @@ git clone https://github.com/ggspark/setup_mac
 * Wireshark
 * Oracle Virtual box
 * Android Studio
+* Sublime text
+* Open Office
 
 ###CLOSE Sourse
 * Microsoft Office 
