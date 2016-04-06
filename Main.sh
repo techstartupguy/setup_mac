@@ -9,7 +9,7 @@ sleep 5
 
 #install dotfiles as well
 cp ./dotfiles/.bash_profile ~/.
-
+cp ./dotfiles/.gitignore_global ~/.
 
 clear
 echo "******************************************************************************"
@@ -34,6 +34,7 @@ sleep 5
 git config --global core.editor "nano"
 git config --global user.name "Gaurav"
 git config --global user.email "gg.spark@gmail.com"
+git config --global core.excludesfile ~/.gitignore_global
 
 ### Pull sources
 cd $HOME
