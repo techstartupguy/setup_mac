@@ -17,14 +17,10 @@ git clone https://github.com/ggspark/setup_mac
 * Google Chrome
 * Skype
 * VLC media player
-* Bit torrent
-* dropbox
-* Arduino
+* U torrent
+* Dropbox
 * Android File Transfer
 * Google Drive
-* JD GUI
-* Team Viewer
-* Wireshark
 * Oracle Virtual box
 * Android Studio
 * Sublime text
