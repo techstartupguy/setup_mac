@@ -15,17 +15,18 @@ git clone https://github.com/ggspark/setup_mac
 
 ###OPEN Source
 * Google Chrome
+* Sublime text
+* Open Office
 * Skype
 * VLC media player
 * U torrent
 * Dropbox
-* Android File Transfer
 * Google Drive
 * Oracle Virtual box
+* XCode
+* Android File Transfer
 * Android Studio
-* Sublime text
-* Open Office
+* Heroku toolbelt
 
 ###CLOSE Sourse
-* Microsoft Office 
-* Matlab
+* Microsoft Office
