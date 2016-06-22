@@ -27,6 +27,7 @@ git clone https://github.com/ggspark/setup_mac
 * XCode
 * Android File Transfer
 * Android Studio
+* Intellij Idea
 * Heroku toolbelt
 
 ###CLOSE Sourse
