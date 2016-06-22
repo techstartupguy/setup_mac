@@ -15,6 +15,7 @@ git clone https://github.com/ggspark/setup_mac
 
 ###OPEN Source
 * Google Chrome
+* Firefox
 * Fliqlo Screensaver
 * Sublime text
 * Open Office
