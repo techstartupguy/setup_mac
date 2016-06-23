@@ -3,7 +3,7 @@
 
 clear
 echo "******************************************************************************"
-echo -e "\e[1;92mInstalling Dotfiles screenrc, bash_profile, bashrc, bashrc_custom, emacs.d\e[0m"
+echo -e "Installing Dotfiles"
 echo "******************************************************************************"
 sleep 5
 
@@ -17,7 +17,7 @@ cd ~/
 
 clear
 echo "******************************************************************************"
-echo -e "\e[1;92mInstalling Open Source softwares \e[0m"
+echo -e "Installing Open Source softwares"
 echo "******************************************************************************"
 sleep 5
 
@@ -30,7 +30,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 clear
 echo "******************************************************************************"
-echo -e "\e[1;92mPulling GIT repositories\e[0m"
+echo -e "Pulling GIT repositories"
 echo "******************************************************************************"
 sleep 5
 
