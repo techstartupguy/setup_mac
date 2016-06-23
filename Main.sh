@@ -7,9 +7,13 @@ echo -e "\e[1;92mInstalling Dotfiles screenrc, bash_profile, bashrc, bashrc_cust
 echo "******************************************************************************"
 sleep 5
 
+#!/bin/bash
+cd "$(dirname "$0")"
 #install dotfiles as well
 cp ./dotfiles/.bash_profile ~/.
 cp ./dotfiles/.gitignore_global ~/.
+
+cd ~/
 
 clear
 echo "******************************************************************************"
