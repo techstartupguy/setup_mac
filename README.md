@@ -26,6 +26,7 @@ git clone https://github.com/ggspark/setup_mac
 * Google Drive
 * Oracle Virtual box
 * XCode
+* Java SE JDK
 * Android File Transfer
 * Android Studio
 * Intellij Idea
