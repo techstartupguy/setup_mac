@@ -1,9 +1,8 @@
-#setup_mac
+# setup_mac
 
 This is a repository containing Mac settings 
 
-
-Save the folder in home directory and run
+#### Save the folder in home directory and run
 
 ```sh
 cd $HOME
@@ -11,9 +10,7 @@ git clone https://github.com/ggspark/setup_mac
 bash ./setup_mac/Main.sh
 ```
 
-##Macintosh Softwares
-
-###OPEN Source
+### Macintosh Softwares
 * Google Chrome
 * Firefox
 * Fliqlo Screensaver
@@ -31,6 +28,3 @@ bash ./setup_mac/Main.sh
 * Android Studio
 * Intellij Idea
 * Heroku toolbelt
-
-###CLOSE Sourse
-* Microsoft Office
