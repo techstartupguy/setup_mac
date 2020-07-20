@@ -2,6 +2,11 @@
 cd "$(dirname "$0")" || exit #Cd to project dir
 SECONDS=0
 
+# Enter password to continue
+echo -e "\033[1;31m Enter password to start \033[0m"
+say "Enter password to start"
+sudo -v # Take sudo permission to not ask in future
+
 # Install dotfiles
 echo -e "\033[1;31m Install dotfiles \033[0m"
 say "Install dotfiles"
