@@ -9,6 +9,10 @@ cd $HOME
 git clone https://github.com/ggspark/setup_mac 
 bash ./setup_mac/Main.sh
 ```
+
+### Software to be installed manually
+* XCode
+
 ### Software installed by script
 * Bash settings
 * XCode CLI Tools
@@ -19,15 +23,12 @@ bash ./setup_mac/Main.sh
 * GCloud CLI
 * Heroku Toolbelt
 * Flutter
-
-
-### Software to be installed manually
-* Google Chrome
-* XCode
-* Fliqlo Screensaver
-* Sublime text
 * Open Office
 * VLC media player
 * Google Drive
-* Intellij Idea
 * Tor Browser
+* Fliqlo Screensaver
+* Sublime text
+* Intellij Idea
+* Google Chrome
+

@@ -86,6 +86,45 @@ sudo xcodebuild -license
 flutter doctor --android-licenses
 flutter doctor -v
 
+# Install Open Office
+echo -e "\033[1;31m Install Open Office \033[0m"
+say "Install Open Office"
+brew cask install openoffice
+
+# Install VLC media player
+echo -e "\033[1;31m Install VLC media player \033[0m"
+say "Install VLC media player"
+brew cask install vlc
+
+# Install Google Drive
+echo -e "\033[1;31m Install Google Drive \033[0m"
+say "Install Google Drive"
+brew cask install google-backup-and-sync
+
+# Install Tor Browser
+echo -e "\033[1;31m Install Tor Browser \033[0m"
+say "Install Tor Browser"
+brew cask install tor-browser
+
+# Install Fliqlo Screensaver
+echo -e "\033[1;31m Install Fliqlo Screensaver \033[0m"
+say "Install Fliqlo Screensaver"
+brew cask install fliqlo
+
+# Install Sublime text
+echo -e "\033[1;31m Install Sublime text \033[0m"
+say "Install Sublime text"
+brew cask install sublime-text
+
+# Install Intellij Idea
+echo -e "\033[1;31m Install Intellij Idea \033[0m"
+say "Install Intellij Idea"
+brew cask install intellij-idea-ce
+
+# Install Google Chrome
+echo -e "\033[1;31m Install Google Chrome \033[0m"
+say "Install Google Chrome"
+brew cask install google-chrome
 
 # Complete
 echo -e "\033[1;31m \nTime Elapsed: $((SECONDS / 3600)) Hrs, $(((SECONDS / 60) % 60)) Mins, $((SECONDS % 60)) Sec \033[0m"
