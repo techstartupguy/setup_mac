@@ -6,6 +6,9 @@ SECONDS=0
 echo -e "\033[1;31m Enter password to start \033[0m"
 say "Enter password to start"
 sudo -v # Take sudo permission to not ask in future
+# Set default shell to bash
+sudo chsh -s /bin/bash
+chsh -s /bin/bash
 
 # Install dotfiles
 echo -e "\033[1;31m Install dotfiles \033[0m"
@@ -14,8 +17,6 @@ cp ./dotfiles/.bash_profile ~/.
 cp ./dotfiles/.gitignore_global ~/.
 # Go to home directory
 cd || exit
-# Set default shell to bash
-chsh -s /bin/bash
 # Setup git
 git config --global core.editor "nano"
 git config --global user.name "Gaurav"
