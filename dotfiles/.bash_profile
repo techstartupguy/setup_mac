@@ -3,7 +3,7 @@ PS1="\[\033[1;36m\][\u@:\w\[\033[0;32m\] \$(git branch 2>/dev/null | grep '^*' |
 #Configure your path
 export EDITOR=nano
 export LANG=en_US.UTF-8
-PATH=~/.pub-cache/bin:~/flutter/bin:~/Library/Android/sdk/emulator:~/Library/Android/sdk/platform-tools:~/Library/Android/sdk/tools:~/Library/Android/sdk/tools/bin:$PATH
+PATH=~/.pub-cache/bin:~/Library/Android/sdk/emulator:~/Library/Android/sdk/platform-tools:~/Library/Android/sdk/tools:~/Library/Android/sdk/tools/bin:$PATH
 
 #Configure you aliases
 alias ll='ls -alrth'
