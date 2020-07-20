@@ -1,6 +1,6 @@
 # setup_mac
 
-This is a repository containing Mac settings 
+This is a repository containing script for Mac settings 
 
 #### Save the folder in home directory and run
 
@@ -9,22 +9,25 @@ cd $HOME
 git clone https://github.com/ggspark/setup_mac 
 bash ./setup_mac/Main.sh
 ```
+### Software installed by script
+* Bash settings
+* XCode CLI Tools
+* Homebrew
+* Node & npm
+* Android & Android-Studio
+* Firebase CLI
+* GCloud CLI
+* Heroku Toolbelt
+* Flutter
 
-### Macintosh Softwares
+
+### Software to be installed manually
 * Google Chrome
-* Firefox
+* XCode
 * Fliqlo Screensaver
 * Sublime text
 * Open Office
-* Skype
 * VLC media player
-* U torrent
-* Dropbox
 * Google Drive
-* Oracle Virtual box
-* XCode
-* Java SE JDK
-* Android File Transfer
-* Android Studio
 * Intellij Idea
-* Heroku toolbelt
+* Tor Browser
