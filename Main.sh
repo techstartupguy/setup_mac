@@ -28,7 +28,7 @@ which -a xcode-select && xcode-select --version
 echo -e "\033[1;31m Install Homebrew \033[0m"
 say "Install Homebrew"
 which -a brew && brew --version
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" </dev/null
 brew upgrade
 brew cask upgrade
 which -a brew && brew --version
