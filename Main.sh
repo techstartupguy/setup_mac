@@ -119,13 +119,9 @@ brew cask install google-chrome && brew cask info google-chrome
 echo -e "\033[1;31m Install Flutter \033[0m"
 say "Install Flutter"
 which -a flutter && flutter --version
-brew install flutter && brew info flutter
-flutter upgrade
+brew tap flschweiger/flutter && brew cask install flutter && brew cask info flutter
+flutter upgrade --force
 which -a flutter && flutter --version
-echo -e "\033[1;31m Accept Licenses \033[0m"
-say "Accept Licenses"
-sudo xcodebuild -license
-flutter doctor --android-licenses
 flutter doctor -v
 
 # Complete
