@@ -73,6 +73,15 @@ which -a heroku && heroku --version
 brew tap heroku/brew && brew install heroku && brew info heroku
 which -a heroku && heroku --version
 
+# Install Flutter
+echo -e "\033[1;31m Install Flutter \033[0m"
+say "Install Flutter"
+which -a flutter && flutter --version
+brew tap flschweiger/flutter && brew cask install flutter && brew cask info flutter
+flutter upgrade --force
+which -a flutter && flutter --version
+flutter doctor -v
+
 # Install VLC media player
 echo -e "\033[1;31m Install VLC media player \033[0m"
 say "Install VLC media player"
@@ -114,15 +123,6 @@ brew cask install intellij-idea-ce && brew cask info intellij-idea-ce
 echo -e "\033[1;31m Install Google Chrome \033[0m"
 say "Install Google Chrome"
 brew cask install google-chrome && brew cask info google-chrome
-
-# Install Flutter
-echo -e "\033[1;31m Install Flutter \033[0m"
-say "Install Flutter"
-which -a flutter && flutter --version
-brew tap flschweiger/flutter && brew cask install flutter && brew cask info flutter
-flutter upgrade --force
-which -a flutter && flutter --version
-flutter doctor -v
 
 # Complete
 echo -e "\033[1;31m \nTime Elapsed: $((SECONDS / 3600)) Hrs, $(((SECONDS / 60) % 60)) Mins, $((SECONDS % 60)) Sec \033[0m"

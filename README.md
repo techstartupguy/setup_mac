@@ -22,6 +22,7 @@ bash ./setup_mac/Main.sh
 * Firebase CLI
 * GCloud CLI
 * Heroku Toolbelt
+* Flutter
 * VLC media player
 * Open Office
 * Google Drive
@@ -30,6 +31,4 @@ bash ./setup_mac/Main.sh
 * Sublime text
 * Intellij Idea
 * Google Chrome
-
-* Flutter
 
