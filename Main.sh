@@ -73,17 +73,17 @@ which -a heroku && heroku --version
 brew tap heroku/brew && brew install heroku && brew info heroku
 which -a heroku && heroku --version
 
-# Install Open Office
-echo -e "\033[1;31m Install Open Office \033[0m"
-say "Install Open Office"
-brew cask install openoffice && brew cask info openoffice
-
 # Install VLC media player
 echo -e "\033[1;31m Install VLC media player \033[0m"
 say "Install VLC media player"
 which -a vlc && vlc --version
 brew cask install vlc && brew cask info vlc
 which -a vlc && vlc --version
+
+# Install Open Office
+echo -e "\033[1;31m Install Open Office \033[0m"
+say "Install Open Office"
+brew cask install openoffice && brew cask info openoffice
 
 # Install Google Drive
 echo -e "\033[1;31m Install Google Drive \033[0m"

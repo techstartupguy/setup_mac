@@ -22,8 +22,8 @@ bash ./setup_mac/Main.sh
 * Firebase CLI
 * GCloud CLI
 * Heroku Toolbelt
-* Open Office
 * VLC media player
+* Open Office
 * Google Drive
 * Tor Browser
 * Fliqlo Screensaver
