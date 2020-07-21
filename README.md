@@ -24,11 +24,11 @@ bash ./setup_mac/Main.sh
 * Heroku Toolbelt
 * Flutter
 * VLC media player
+* Google Chrome
 * Open Office
 * Google Drive
 * Tor Browser
 * Fliqlo Screensaver
 * Sublime text
 * Intellij Idea
-* Google Chrome
 

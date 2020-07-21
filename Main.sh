@@ -96,6 +96,11 @@ which -a vlc && vlc --version
 brew cask install vlc && brew cask info vlc
 which -a vlc && vlc --version
 
+# Install Google Chrome
+echo -e "\033[1;31m Install Google Chrome \033[0m"
+say "Install Google Chrome"
+brew cask install google-chrome && brew cask info google-chrome
+
 # Install Open Office
 echo -e "\033[1;31m Install Open Office \033[0m"
 say "Install Open Office"
@@ -125,11 +130,6 @@ brew cask install sublime-text && brew cask info sublime-text
 echo -e "\033[1;31m Install Intellij Idea \033[0m"
 say "Install Intellij Idea"
 brew cask install intellij-idea-ce && brew cask info intellij-idea-ce
-
-# Install Google Chrome
-echo -e "\033[1;31m Install Google Chrome \033[0m"
-say "Install Google Chrome"
-brew cask install google-chrome && brew cask info google-chrome
 
 # Complete
 echo -e "\033[1;31m \nTime Elapsed: $((SECONDS / 3600)) Hrs, $(((SECONDS / 60) % 60)) Mins, $((SECONDS % 60)) Sec \033[0m"
