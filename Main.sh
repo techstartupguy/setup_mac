@@ -20,8 +20,8 @@ cd || exit
 ln -sf ~/ ~/Desktop/ #Create shortcut to home in Desktop
 # Setup git
 git config --global core.editor "nano"
-git config --global user.name "Gaurav"
-git config --global user.email "gg.spark@gmail.com"
+git config --global user.name "$(whoami)"
+git config --global user.email "$(whoami)@no-reply.com"
 git config --global core.excludesfile ~/.gitignore_global
 
 # Install XCode CLI Tools
