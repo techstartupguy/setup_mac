@@ -101,10 +101,10 @@ echo -e "\033[1;31m Install Google Chrome \033[0m"
 say "Install Google Chrome"
 brew cask install google-chrome && brew cask info google-chrome
 
-# Install Open Office
-echo -e "\033[1;31m Install Open Office \033[0m"
-say "Install Open Office"
-brew cask install openoffice && brew cask info openoffice
+# Install Libre Office
+echo -e "\033[1;31m Install Libre Office \033[0m"
+say "Install Libre Office"
+brew cask install libreoffice && brew cask info libreoffice
 
 # Install Google Drive
 echo -e "\033[1;31m Install Google Drive \033[0m"

@@ -25,10 +25,9 @@ bash ./setup_mac/Main.sh
 * Flutter
 * VLC media player
 * Google Chrome
-* Open Office
+* Libre Office
 * Google Drive
 * Tor Browser
 * Fliqlo Screensaver
 * Sublime text
 * Intellij Idea
-
