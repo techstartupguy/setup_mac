@@ -71,6 +71,7 @@ echo -e "\033[1;31m Install Gcloud \033[0m"
 say "Install Gcloud"
 which -a gcloud && gcloud --version
 brew cask install google-cloud-sdk && brew cask info google-cloud-sdk
+gcloud components update -q
 which -a gcloud && gcloud --version
 
 # Install Heroku
