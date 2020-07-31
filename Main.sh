@@ -97,6 +97,11 @@ which -a vlc && vlc --version
 brew cask install vlc && brew cask info vlc
 which -a vlc && vlc --version
 
+# Install VNC Viewer
+echo -e "\033[1;31m Install VNC Viewer \033[0m"
+say "Install VNC Viewer"
+brew cask install vnc-viewer && brew cask info vnc-viewer
+
 # Install Google Chrome
 echo -e "\033[1;31m Install Google Chrome \033[0m"
 say "Install Google Chrome"

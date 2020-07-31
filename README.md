@@ -24,6 +24,7 @@ bash ./setup_mac/Main.sh
 * Heroku Toolbelt
 * Flutter
 * VLC media player
+* Real VNC Viewer
 * Google Chrome
 * Libre Office
 * Google Drive
