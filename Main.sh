@@ -97,6 +97,20 @@ which -a vlc && vlc --version
 brew cask install vlc && brew cask info vlc
 which -a vlc && vlc --version
 
+# Install Sublime text
+echo -e "\033[1;31m Install Sublime text \033[0m"
+say "Install Sublime text"
+which -a subl && subl --version
+brew cask install sublime-text && brew cask info sublime-text
+which -a subl && subl --version
+
+# Install Libre Office
+echo -e "\033[1;31m Install Libre Office \033[0m"
+say "Install Libre Office"
+which -a soffice && soffice --version
+brew cask install libreoffice && brew cask info libreoffice
+which -a soffice && soffice --version
+
 # Install VNC Viewer
 echo -e "\033[1;31m Install VNC Viewer \033[0m"
 say "Install VNC Viewer"
@@ -106,11 +120,6 @@ brew cask install vnc-viewer && brew cask info vnc-viewer
 echo -e "\033[1;31m Install Google Chrome \033[0m"
 say "Install Google Chrome"
 brew cask install google-chrome && brew cask info google-chrome
-
-# Install Libre Office
-echo -e "\033[1;31m Install Libre Office \033[0m"
-say "Install Libre Office"
-brew cask install libreoffice && brew cask info libreoffice
 
 # Install Google Drive
 echo -e "\033[1;31m Install Google Drive \033[0m"
@@ -126,11 +135,6 @@ brew cask install tor-browser && brew cask info tor-browser
 echo -e "\033[1;31m Install Fliqlo Screensaver \033[0m"
 say "Install Fliqlo Screensaver"
 brew cask install fliqlo && brew cask info fliqlo
-
-# Install Sublime text
-echo -e "\033[1;31m Install Sublime text \033[0m"
-say "Install Sublime text"
-brew cask install sublime-text && brew cask info sublime-text
 
 # Install Intellij Idea
 echo -e "\033[1;31m Install Intellij Idea \033[0m"
