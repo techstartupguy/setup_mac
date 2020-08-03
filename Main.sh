@@ -141,6 +141,11 @@ echo -e "\033[1;31m Install Intellij Idea \033[0m"
 say "Install Intellij Idea"
 brew cask install intellij-idea-ce && brew cask info intellij-idea-ce
 
+# Install Slack
+echo -e "\033[1;31m Install Slack \033[0m"
+say "Install Slack"
+brew cask install slack && brew cask info slack
+
 # Complete
 echo -e "\033[1;31m \nTime Elapsed: $((SECONDS / 3600)) Hrs, $(((SECONDS / 60) % 60)) Mins, $((SECONDS % 60)) Sec \033[0m"
 echo -e "\033[1;31m \nCompleted \033[0m"

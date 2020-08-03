@@ -32,3 +32,4 @@ bash ./setup_mac/Main.sh
 * Tor Browser
 * Fliqlo Screensaver
 * Intellij Idea
+* Slack
