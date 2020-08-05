@@ -141,6 +141,7 @@ brew install bundletool && brew info bundletool
 brew cask install android-platform-tools && brew cask info android-platform-tools
 brew cask install android-sdk && brew cask info android-sdk
 brew cask install android-studio && brew cask info android-studio
+mkdir -p .android && touch ~/.android/repositories.cfg
 which -a adb && adb --version
 
 # Install Flutter
