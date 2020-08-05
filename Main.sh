@@ -127,6 +127,12 @@ which -a heroku && heroku --version
 brew tap heroku/brew && brew install heroku && brew info heroku
 which -a heroku && heroku --version
 
+# Install Java
+echo -e "\033[1;31m Install Java \033[0m"
+say "Install Java"
+brew cask install java && brew cask info java
+which -a java && java --version
+
 # Install Android
 echo -e "\033[1;31m Install Android \033[0m"
 say "Install Android"

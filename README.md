@@ -29,6 +29,7 @@ bash ./setup_mac/Main.sh
 * Firebase CLI
 * GCloud CLI
 * Heroku Toolbelt
+* Java
 * Android & Android-Studio
 * Flutter
 
