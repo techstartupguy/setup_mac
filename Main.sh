@@ -49,6 +49,7 @@ brew cask install google-chrome && brew cask info google-chrome
 echo -e "\033[1;31m Install Google Drive \033[0m"
 say "Install Google Drive"
 brew cask install google-backup-and-sync && brew cask info google-backup-and-sync
+ln -sf ~/Google\ Drive/ ~/Desktop/
 
 # Install Tor Browser
 echo -e "\033[1;31m Install Tor Browser \033[0m"
