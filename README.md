@@ -24,6 +24,7 @@ bash ./setup_mac/Main.sh
 * Libre Office
 * Real VNC Viewer
 * Intellij Idea
+* VS Code
 
 * Node & npm
 * Firebase CLI

@@ -97,6 +97,11 @@ echo -e "\033[1;31m Install Intellij Idea \033[0m"
 say "Install Intellij Idea"
 brew cask install intellij-idea-ce && brew cask info intellij-idea-ce
 
+# Install VS Code
+echo -e "\033[1;31m Install VS Code \033[0m"
+say "Install VS Code"
+brew cask install visual-studio-code && brew cask info visual-studio-code
+
 # Install Node
 echo -e "\033[1;31m Install Node \033[0m"
 say "Install Node"
