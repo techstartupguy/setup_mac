@@ -17,7 +17,8 @@ cp ./dotfiles/.bash_profile ~/.
 cp ./dotfiles/.gitignore_global ~/.
 # Go to home directory
 cd || exit
-ln -sf ~/ ~/Desktop/ #Create shortcut to home in Desktop
+ln -sf ~/ ~/Desktop/ # Create shortcut to home in Desktop
+defaults write com.apple.screencapture location ~/Downloads/ # Save Screenshots in downloads
 # Setup git
 git config --global core.editor "nano"
 git config --global user.name "$(whoami)"
