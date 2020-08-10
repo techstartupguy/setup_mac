@@ -1,11 +1,18 @@
 PS1="\[\033[1;36m\][\u@:\w\[\033[0;32m\] \$(git branch 2>/dev/null | grep '^*' | colrm 1 2)\[\033[1;36m\]]$\[\033[0m\]"
 
-#Configure your path
+# Set environment variables
 export EDITOR=nano
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
-PATH=~/.pub-cache/bin:~/Library/Android/sdk/emulator:~/Library/Android/sdk/platform-tools:~/Library/Android/sdk/tools:~/Library/Android/sdk/tools/bin:$PATH
 
-#Configure you aliases
+# Set your path
+export ANDROID_HOME=~/Library/Android/sdk
+export PATH=$ANDROID_HOME/tools/bin:$PATH
+export PATH=$ANDROID_HOME/tools:$PATH
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+export PATH=$ANDROID_HOME/emulator:$PATH
+export PATH=~/.pub-cache/bin:$PATH
+
+# Set your aliases
 alias ll='ls -alrth'
