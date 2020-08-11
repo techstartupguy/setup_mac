@@ -20,9 +20,10 @@ bash ./setup_mac/Main.sh
 * Fliqlo Screensaver
 * Slack
 * VLC media player
-* Sublime text
 * Libre Office
 * Real VNC Viewer
+* Sublime text
+* Android-Studio
 * VS Code
 
 * Node & npm
@@ -30,7 +31,7 @@ bash ./setup_mac/Main.sh
 * GCloud CLI
 * Heroku Toolbelt
 * Java
-* Android & Android-Studio
+* Android
 * Flutter
 
 
