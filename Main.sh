@@ -74,13 +74,6 @@ which -a vlc && vlc --version
 brew cask install vlc && brew cask info vlc
 which -a vlc && vlc --version
 
-# Install Sublime text
-echo -e "\033[1;31m Install Sublime text \033[0m"
-say "Install Sublime text"
-which -a subl && subl --version
-brew cask install sublime-text && brew cask info sublime-text
-which -a subl && subl --version
-
 # Install Libre Office
 echo -e "\033[1;31m Install Libre Office \033[0m"
 say "Install Libre Office"
@@ -93,12 +86,26 @@ echo -e "\033[1;31m Install VNC Viewer \033[0m"
 say "Install VNC Viewer"
 brew cask install vnc-viewer && brew cask info vnc-viewer
 
+# Install Sublime text
+echo -e "\033[1;31m Install Sublime text \033[0m"
+say "Install Sublime text"
+which -a subl && subl --version
+brew cask install sublime-text && brew cask info sublime-text
+which -a subl && subl --version
+
+# Install Android Studio
+echo -e "\033[1;31m Install Android Studio \033[0m"
+say "Install Android Studio"
+brew cask install android-studio && brew cask info android-studio
+
 # Install VS Code
 echo -e "\033[1;31m Install VS Code \033[0m"
 say "Install VS Code"
 which -a code && code --version
 brew cask install visual-studio-code && brew cask info visual-studio-code
 which -a code && code --version
+
+
 
 # Install Node
 echo -e "\033[1;31m Install Node \033[0m"
@@ -144,7 +151,6 @@ which -a adb && adb --version
 brew install bundletool && brew info bundletool
 brew cask install android-platform-tools && brew cask info android-platform-tools
 brew cask install android-sdk && brew cask info android-sdk
-brew cask install android-studio && brew cask info android-studio
 mkdir -p .android && touch ~/.android/repositories.cfg
 which -a adb && adb --version
 
