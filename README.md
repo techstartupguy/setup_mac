@@ -23,7 +23,6 @@ bash ./setup_mac/Main.sh
 * Sublime text
 * Libre Office
 * Real VNC Viewer
-* Intellij Idea
 * VS Code
 
 * Node & npm

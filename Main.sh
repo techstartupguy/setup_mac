@@ -93,11 +93,6 @@ echo -e "\033[1;31m Install VNC Viewer \033[0m"
 say "Install VNC Viewer"
 brew cask install vnc-viewer && brew cask info vnc-viewer
 
-# Install Intellij Idea
-echo -e "\033[1;31m Install Intellij Idea \033[0m"
-say "Install Intellij Idea"
-brew cask install intellij-idea-ce && brew cask info intellij-idea-ce
-
 # Install VS Code
 echo -e "\033[1;31m Install VS Code \033[0m"
 say "Install VS Code"
