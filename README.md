@@ -31,6 +31,7 @@ bash ./setup_mac/Main.sh
 * Android-Studio
 * VS Code
 
+* Duti
 * Node & npm
 * Firebase CLI
 * GCloud CLI

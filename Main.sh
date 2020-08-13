@@ -106,6 +106,19 @@ brew cask install visual-studio-code && brew cask info visual-studio-code
 which -a code && code --version
 
 
+# Install Duti
+echo -e "\033[1;31m Install Duti \033[0m"
+say "Install Duti"
+which -a duti && duti -V
+brew install duti && brew info duti
+which -a duti && duti -V
+# Set default apps
+DEFAULT_APP=com.microsoft.VSCode # Choose: com.microsoft.VSCode com.sublimetext.3
+duti -s $DEFAULT_APP .sh all
+duti -s $DEFAULT_APP .md all
+duti -s $DEFAULT_APP .txt all
+duti -s $DEFAULT_APP .yaml all
+duti -s $DEFAULT_APP .json all
 
 # Install Node
 echo -e "\033[1;31m Install Node \033[0m"
