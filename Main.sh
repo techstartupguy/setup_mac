@@ -106,19 +106,6 @@ brew cask install visual-studio-code && brew cask info visual-studio-code
 which -a code && code --version
 
 
-# Install Duti
-echo -e "\033[1;31m Install Duti \033[0m"
-say "Install Duti"
-which -a duti && duti -V
-brew install duti && brew info duti
-which -a duti && duti -V
-# Set default apps
-DEFAULT_APP=com.microsoft.VSCode # Choose: com.microsoft.VSCode com.sublimetext.3
-duti -s $DEFAULT_APP .sh all
-duti -s $DEFAULT_APP .md all
-duti -s $DEFAULT_APP .txt all
-duti -s $DEFAULT_APP .yaml all
-duti -s $DEFAULT_APP .json all
 
 # Install Node
 echo -e "\033[1;31m Install Node \033[0m"
@@ -175,6 +162,46 @@ brew tap flschweiger/flutter && brew install flutter && brew info flutter
 flutter upgrade --force
 which -a flutter && flutter --version
 flutter doctor -v
+
+# Install Duti
+echo -e "\033[1;31m Install Duti \033[0m"
+say "Install Duti"
+which -a duti && duti -V
+brew install duti && brew info duti
+which -a duti && duti -V
+# Default Video Player: org.videolan.vlc
+duti -s org.videolan.vlc .M2V all
+duti -s org.videolan.vlc .M3U all
+duti -s org.videolan.vlc .MPEG1 all
+duti -s org.videolan.vlc .MPEG2 all
+duti -s org.videolan.vlc .PLS all
+duti -s org.videolan.vlc .BUP all
+duti -s org.videolan.vlc .A52 all
+duti -s org.videolan.vlc .DV all
+duti -s org.videolan.vlc .MOV all
+duti -s org.videolan.vlc .MPEG4 all
+duti -s org.videolan.vlc .SPX all
+duti -s org.videolan.vlc .TS all
+duti -s org.videolan.vlc .BIN all
+duti -s org.videolan.vlc .IFO all
+duti -s org.videolan.vlc .PART all
+duti -s org.videolan.vlc .3G2 all
+duti -s org.videolan.vlc .AVI all
+duti -s org.videolan.vlc .MPEG all
+duti -s org.videolan.vlc .MPG all
+duti -s org.videolan.vlc .M4A all
+duti -s org.videolan.vlc .WAV all
+duti -s org.videolan.vlc .3GP all
+duti -s org.videolan.vlc .MP2 all
+duti -s org.videolan.vlc .MP3 all
+duti -s org.videolan.vlc .MP4 all
+duti -s org.videolan.vlc .M4P all
+# Default Text Editor: com.microsoft.VSCode | com.sublimetext.3
+duti -s com.microsoft.VSCode .SH all
+duti -s com.microsoft.VSCode .MD all
+duti -s com.microsoft.VSCode .TXT all
+duti -s com.microsoft.VSCode .YAML all
+duti -s com.microsoft.VSCode .JSON all
 
 
 # Complete

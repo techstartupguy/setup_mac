@@ -31,7 +31,6 @@ bash ./setup_mac/Main.sh
 * Android-Studio
 * VS Code
 
-* Duti
 * Node & npm
 * Firebase CLI
 * GCloud CLI
@@ -39,6 +38,7 @@ bash ./setup_mac/Main.sh
 * Java
 * Android
 * Flutter
+* Duti
 
 
 ## Step3: Manually install the softwares
