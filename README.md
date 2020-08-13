@@ -1,6 +1,11 @@
-# setup_mac
+# Setup Mac
 
 This is a repository containing script for Mac settings 
+
+
+## Step1: Upgrade to the latest Mac OS version
+
+## Step2: Run the script from terminal
 
 #### Save the folder in home directory and run
 
@@ -10,7 +15,7 @@ git clone https://github.com/ggspark/setup_mac
 bash ./setup_mac/Main.sh
 ```
 
-### Software installed by script
+#### Software installed by script
 * Mac Setup
 * XCode CLI Tools
 * Homebrew
@@ -35,5 +40,17 @@ bash ./setup_mac/Main.sh
 * Flutter
 
 
-### Software to be installed manually
+## Step3: Manually install the softwares
+
+Signin to App Store with Apple Id
+
+#### Software to be installed manually
 * XCode
+* iMovies
+* Keynote
+
+## Step4: Configure Mac Settings
+* Dock - Set size, Set useful apps, Remove Recent apps
+* Screenshot - Disable show floating thumbnail
+* Calendar - Add google calendar
+* System Preferences
