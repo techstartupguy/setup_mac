@@ -1,0 +1,47 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "title": "Accounts",
+    "description": "An account type",
+    "definitions": {
+        "bank": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "accountNumber": {
+                    "type": "number"
+                },
+                "ifscCode": {
+                    "type": "number"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "name",
+                "accountNumber",
+                "ifscCode"
+            ]
+        }
+    },
+    "type": "object",
+    "properties": {
+        "BankIndia": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "propertyNames": {
+                    "pattern": "^[A-Za-z][A-Za-z]*$"
+                },
+                "patternProperties": {
+                    "": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/definitions/bank"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
