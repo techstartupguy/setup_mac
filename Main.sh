@@ -104,7 +104,19 @@ say "Install VS Code"
 which -a code && code --version
 brew cask install visual-studio-code && brew cask info visual-studio-code
 which -a code && code --version
-
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension esbenp.prettier-vscode
+code --install-extension visualstudioexptteam.vscodeintellicode
+code --install-extension eamodio.gitlens
+code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension pkief.material-icon-theme
+code --install-extension redhat.vscode-yaml
+code --install-extension editorconfig.editorconfig
+code --install-extension dart-code.dart-code
+code --install-extension dart-code.flutter
+code --install-extension dsznajder.es7-react-js-snippets
+code --install-extension msjsdiag.vscode-react-native
+code --install-extension coenraads.bracket-pair-colorizer-2
 
 
 # Install Node
