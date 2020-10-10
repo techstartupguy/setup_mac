@@ -1,0 +1,148 @@
+{
+  // Text Editor
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.dragAndDrop": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.scrollBeyondLastLine": false,
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.maxColumn": 80,
+  "files.autoSave": "afterDelay",
+  "files.autoGuessEncoding": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+
+  // Workbench
+  "workbench.sideBar.location": "left",
+  "workbench.enableExperiments": false,
+  "workbench.panel.opensMaximized": "never",
+  "workbench.activityBar.iconClickBehavior": "focus",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.indent": 16,
+  "workbench.view.alwaysShowHeaderActions": true,
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 10,
+  "workbench.editor.openPositioning": "last",
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.pinnedTabSizing": "compact",
+  "workbench.editor.tabSizing": "shrink",
+
+  // Window
+  "window.autoDetectHighContrast": false,
+  "window.restoreWindows": "one",
+  "window.title": "${rootName}${separator}${activeEditorShort}",
+  "window.zoomLevel": 1,
+  "window.newWindowDimensions": "offset",
+  "window.openFilesInNewWindow": "on",
+  "window.openFoldersInNewWindow": "on",
+
+  // Features
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 10,
+  "search.showLineNumbers": true,
+  "debug.console.closeOnEnd": true,
+  "debug.inlineValues": true,
+  "debug.openExplorerOnEnd": true,
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Chrome",
+        "type": "chrome",
+        "request": "launch",
+        "url": "http://localhost:3000",
+        "webRoot": "${workspaceFolder}/src",
+        "sourceMapPathOverrides": {
+          "webpack:///src/*": "${webRoot}/*"
+        }
+      }
+    ],
+    "compounds": []
+  },
+  "scm.alwaysShowRepositories": true,
+  "scm.defaultViewMode": "tree",
+
+  // Application
+
+  // ESLint
+
+  // Prettier
+  "prettier.enable": true, //Default
+  "prettier.printWidth": 80, //Default
+  "prettier.tabWidth": 2, //Default
+  "prettier.useTabs": false, //Default
+  "prettier.semi": true, //Default
+  "prettier.singleQuote": true, //false
+  "prettier.quoteProps": "consistent", //as-needed
+  "prettier.jsxSingleQuote": true, //false
+  "prettier.trailingComma": "es5", //Default
+  "prettier.bracketSpacing": true, //Default
+  "prettier.jsxBracketSameLine": false, //Default
+  "prettier.arrowParens": "always", //Default
+  "prettier.endOfLine": "lf", //Default
+
+  // VS IntelliCode
+
+  // GitLens
+
+  // Debugger for Chrome
+
+  // Material Icon Theme
+
+  // YAML
+  "yaml.schemas": {
+    "/Users/gaurav/setup_mac/schema.json": ["Accounts/*.yaml"]
+  },
+
+  // EditorConfig
+
+  // Dart
+
+  // Flutter
+
+  // ES7 React/Redux/GraphQL/React-Native snippets
+
+  // React Native Tools
+
+  // Bracket Pair Colorizer 2
+
+  // To-Look
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.views.repositories.location": "scm",
+  "gitlens.views.fileHistory.location": "scm",
+  "gitlens.views.lineHistory.location": "scm",
+  "gitlens.views.compare.location": "scm",
+  "gitlens.views.search.location": "scm",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "dart.debugExternalLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "bracket-pair-colorizer-2.colors": [
+    "Gold",
+    "Orchid",
+    "LightSkyBlue",
+    "Salmon",
+    "LawnGreen",
+    "DarkOrange",
+    "Cornsilk"
+  ],
+  "terminal.integrated.shell.osx": "/bin/bash"
+}
