@@ -6,6 +6,7 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.scrollBeyondLastLine": false,
   "editor.find.addExtraSpaceOnTop": false,
+  "editor.suggestSelection": "first",
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
@@ -33,7 +34,7 @@
   "workbench.editor.tabSizing": "shrink",
   // Window
   "window.autoDetectHighContrast": false,
-  "window.restoreWindows": "one",
+  "window.restoreWindows": "none",
   "window.title": "${rootName}${separator}${activeEditorShort}",
   "window.zoomLevel": 1,
   "window.newWindowDimensions": "offset",
@@ -73,7 +74,6 @@
   "telemetry.enableCrashReporter": false,
 
   // ESLint
-
   // Prettier
   "prettier.enable": true, //Default
   "prettier.printWidth": 80, //Default
@@ -88,33 +88,22 @@
   "prettier.jsxBracketSameLine": false, //Default
   "prettier.arrowParens": "always", //Default
   "prettier.endOfLine": "lf", //Default
-
   // VS IntelliCode
-
   // GitLens
-
+  "gitlens.hovers.currentLine.over": "annotation",
+  "gitlens.views.repositories.location": "scm",
+  "gitlens.views.lineHistory.location": "scm",
+  "gitlens.views.compare.location": "scm",
+  "gitlens.views.search.location": "scm",
+  "gitlens.views.fileHistory.location": "scm",
   // Debugger for Chrome
-
   // Material Icon Theme
-
   // YAML
   "yaml.schemas": {
     "/Users/gaurav/setup_mac/schema.json": ["Accounts/*.yaml"]
   },
-
   // EditorConfig
-
   // Dart
-
-  // Flutter
-
-  // ES7 React/Redux/GraphQL/React-Native snippets
-
-  // React Native Tools
-
-  // Bracket Pair Colorizer 2
-
-  // To-Look
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -125,17 +114,14 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.views.repositories.location": "scm",
-  "gitlens.views.fileHistory.location": "scm",
-  "gitlens.views.lineHistory.location": "scm",
-  "gitlens.views.compare.location": "scm",
-  "gitlens.views.search.location": "scm",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "git.enableSmartCommit": true,
-  "git.confirmSync": false,
   "dart.debugExternalLibraries": false,
   "dart.debugSdkLibraries": false,
+  "dart.allowAnalytics": false,
+  "dart.devToolsBrowser": "default",
+  // Flutter
+  // ES7 React/Redux/GraphQL/React-Native snippets
+  // React Native Tools
+  // Bracket Pair Colorizer 2
   "bracket-pair-colorizer-2.colors": [
     "Gold",
     "Orchid",
@@ -144,5 +130,9 @@
     "LawnGreen",
     "DarkOrange",
     "Cornsilk"
-  ]
+  ],
+
+  // Other
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false
 }
