@@ -117,6 +117,7 @@ code --install-extension dart-code.flutter
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension msjsdiag.vscode-react-native
 code --install-extension coenraads.bracket-pair-colorizer-2
+cp ~/setup_mac/settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 
 # Install Node
