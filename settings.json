@@ -14,7 +14,6 @@
   "files.autoGuessEncoding": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-
   // Workbench
   "workbench.sideBar.location": "left",
   "workbench.enableExperiments": false,
@@ -32,7 +31,6 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.pinnedTabSizing": "compact",
   "workbench.editor.tabSizing": "shrink",
-
   // Window
   "window.autoDetectHighContrast": false,
   "window.restoreWindows": "one",
@@ -41,7 +39,6 @@
   "window.newWindowDimensions": "offset",
   "window.openFilesInNewWindow": "on",
   "window.openFoldersInNewWindow": "on",
-
   // Features
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -50,6 +47,7 @@
   "debug.console.closeOnEnd": true,
   "debug.inlineValues": true,
   "debug.openExplorerOnEnd": true,
+  "debug.console.fontSize": 11,
   "launch": {
     "version": "0.2.0",
     "configurations": [
@@ -68,8 +66,11 @@
   },
   "scm.alwaysShowRepositories": true,
   "scm.defaultViewMode": "tree",
-
+  "terminal.integrated.shell.osx": "/bin/bash",
+  "terminal.integrated.fontSize": 11,
   // Application
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
 
   // ESLint
 
@@ -143,6 +144,5 @@
     "LawnGreen",
     "DarkOrange",
     "Cornsilk"
-  ],
-  "terminal.integrated.shell.osx": "/bin/bash"
+  ]
 }
