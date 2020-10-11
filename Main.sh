@@ -148,13 +148,13 @@ which -a gcloud && gcloud --version
 echo -e "\033[1;31m Install Heroku \033[0m"
 say "Install Heroku"
 which -a heroku && heroku --version
-brew tap heroku/brew && brew install heroku && brew info heroku
+brew install heroku/brew/heroku && brew info heroku
 which -a heroku && heroku --version
 
 # Install Java
 echo -e "\033[1;31m Install Java \033[0m"
 say "Install Java"
-brew tap adoptopenjdk/openjdk && brew cask install adoptopenjdk8 && brew cask info adoptopenjdk8
+brew cask install adoptopenjdk/openjdk/adoptopenjdk8 && brew cask info adoptopenjdk8
 which -a java && java -version
 
 # Install Android
@@ -171,7 +171,7 @@ which -a adb && adb --version
 echo -e "\033[1;31m Install Flutter \033[0m"
 say "Install Flutter"
 which -a flutter && flutter --version
-brew tap flschweiger/flutter && brew install flutter && brew info flutter
+brew install flschweiger/flutter/flutter && brew info flutter
 flutter upgrade --force
 which -a flutter && flutter --version
 flutter doctor -v
