@@ -46,9 +46,11 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 10,
   "search.showLineNumbers": true,
+  "debug.internalConsoleOptions": "openOnSessionStart",
+  "debug.openDebug": "openOnSessionStart",
   "debug.console.closeOnEnd": true,
-  "debug.inlineValues": true,
   "debug.openExplorerOnEnd": true,
+  "debug.inlineValues": true,
   "debug.console.fontSize": 11,
   "launch": {
     "version": "0.2.0",
