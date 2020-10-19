@@ -112,10 +112,7 @@
   // EditorConfig
   // Dart
   "[dart]": {
-    "editor.selectionHighlight": false,
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
+    "editor.defaultFormatter": "Dart-Code.dart-code"
   },
   "dart.debugExternalLibraries": false,
   "dart.debugSdkLibraries": false,
