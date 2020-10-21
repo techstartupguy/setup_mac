@@ -34,8 +34,8 @@
   "workbench.editor.pinnedTabSizing": "compact",
   "workbench.editor.tabSizing": "shrink",
   "workbench.colorCustomizations": {
-     "statusBar.background" : "#303030",
-     "statusBar.noFolderBackground" : "#222222"
+    "statusBar.background": "#303030",
+    "statusBar.noFolderBackground": "#222222"
   },
   // Window
   "window.autoDetectHighContrast": false,
@@ -80,6 +80,10 @@
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
 
+  // Git
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autoRepositoryDetection": "subFolders",
   // ESLint
   // Prettier
   "prettier.enable": true, //Default
@@ -130,9 +134,7 @@
     "LawnGreen",
     "DarkOrange",
     "Cornsilk"
-  ],
+  ]
 
   // Other
-  "git.enableSmartCommit": true,
-  "git.confirmSync": false
 }
