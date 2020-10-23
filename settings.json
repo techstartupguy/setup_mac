@@ -122,6 +122,7 @@
   "dart.debugSdkLibraries": false,
   "dart.allowAnalytics": false,
   "dart.devToolsBrowser": "default",
+  "dart.analysisServerFolding": false,
   // Flutter
   // ES7 React/Redux/GraphQL/React-Native snippets
   // React Native Tools
