@@ -121,6 +121,13 @@ code --install-extension coenraads.bracket-pair-colorizer-2
 cp ~/setup_mac/settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 
+# Install Nano
+echo -e "\033[1;31m Install Nano \033[0m"
+say "Install Nano"
+which -a nano && nano --version
+brew install nano && brew info nano
+which -a nano && nano --version
+
 # Install Node
 echo -e "\033[1;31m Install Node \033[0m"
 say "Install Node"

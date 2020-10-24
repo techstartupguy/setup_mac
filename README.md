@@ -1,6 +1,6 @@
 # Setup Mac
 
-This is a repository containing script for Mac settings 
+This is a repository containing script for Mac settings
 
 
 ## Step1: Upgrade to the latest Mac OS version
@@ -11,7 +11,7 @@ This is a repository containing script for Mac settings
 
 ```sh
 cd $HOME
-git clone https://github.com/ggspark/setup_mac 
+git clone https://github.com/ggspark/setup_mac
 bash ./setup_mac/Main.sh
 ```
 
@@ -31,6 +31,7 @@ bash ./setup_mac/Main.sh
 * Android-Studio
 * VS Code
 
+* Nano
 * Node & npm
 * Firebase CLI
 * GCloud CLI
@@ -72,7 +73,7 @@ code --install-extension PKief.material-icon-theme
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 
 ```
-* Add schema.json to VSCode settings.json like 
+* Add schema.json to VSCode settings.json like
 ```
     "yaml.schemas": {
         "/Users/gaurav/setup_mac/schema.json": [
