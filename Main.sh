@@ -15,6 +15,7 @@ echo -e "\033[1;31m Install dotfiles \033[0m"
 say "Install dotfiles"
 cp ./dotfiles/.bash_profile ~/.
 cp ./dotfiles/.gitignore_global ~/.
+cp ./dotfiles/.nanorc ~/.
 # Go to home directory
 cd || exit
 ln -sf ~/ ~/Desktop/ # Create shortcut to home in Desktop
