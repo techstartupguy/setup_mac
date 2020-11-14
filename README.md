@@ -35,7 +35,6 @@ bash ./setup_mac/Main.sh
 * Node & npm
 * Firebase CLI
 * GCloud CLI
-* Heroku Toolbelt
 * Java
 * Android
 * Flutter
