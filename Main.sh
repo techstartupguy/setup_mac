@@ -134,6 +134,8 @@ say "Install Node"
 which -a node && node --version
 which -a npm && npm --version
 brew install node && brew info node
+brew install node@14 && brew info node@14
+brew install node@12 && brew info node@12
 which -a node && node --version
 which -a npm && npm --version
 

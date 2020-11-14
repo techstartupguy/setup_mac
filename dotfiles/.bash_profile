@@ -13,6 +13,8 @@ export PATH=$ANDROID_HOME/tools:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 export PATH=$ANDROID_HOME/emulator:$PATH
 export PATH=~/.pub-cache/bin:$PATH
+export PATH=/usr/local/opt/node@14/bin:$PATH
+export PATH=/usr/local/opt/node@12/bin:$PATH
 
 # Set your aliases
 alias ll='ls -alrth'
