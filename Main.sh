@@ -154,13 +154,6 @@ brew cask install google-cloud-sdk && brew cask info google-cloud-sdk
 gcloud components update -q
 which -a gcloud && gcloud --version
 
-# Install Heroku
-echo -e "\033[1;31m Install Heroku \033[0m"
-say "Install Heroku"
-which -a heroku && heroku --version
-brew install heroku/brew/heroku && brew info heroku
-which -a heroku && heroku --version
-
 # Install Java
 echo -e "\033[1;31m Install Java \033[0m"
 say "Install Java"
