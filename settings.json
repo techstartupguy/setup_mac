@@ -139,7 +139,8 @@
     "LawnGreen",
     "DarkOrange",
     "Cornsilk"
-  ]
-
+  ],
   // Other
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
