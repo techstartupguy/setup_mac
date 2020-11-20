@@ -56,27 +56,3 @@ Signin to App Store with Apple Id
 * Calendar - Add google calendar
 * System Preferences
 
-## Step5: VSCode settings
-* Install plugins
-```
-code --install-extension Dart-Code.dart-code
-code --install-extension Dart-Code.flutter
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension dsznajder.es7-react-js-snippets
-code --install-extension eamodio.gitlens
-code --install-extension EditorConfig.EditorConfig
-code --install-extension EQuimper.react-native-react-redux
-code --install-extension esbenp.prettier-vscode
-code --install-extension msjsdiag.vscode-react-native
-code --install-extension PKief.material-icon-theme
-code --install-extension VisualStudioExptTeam.vscodeintellicode
-
-```
-* Add schema.json to VSCode settings.json like
-```
-    "yaml.schemas": {
-        "/Users/gaurav/setup_mac/schema.json": [
-            "Accounts/*.yaml"
-        ]
-    }
-```
