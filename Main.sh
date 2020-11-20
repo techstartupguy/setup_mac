@@ -39,7 +39,7 @@ say "Install Homebrew"
 which -a brew && brew --version
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" </dev/null
 brew upgrade
-brew cask upgrade
+brew upgrade --cask
 which -a brew && brew --version
 
 # Install Google Chrome
