@@ -6,6 +6,7 @@ SECONDS=0
 echo -e "\033[1;31m Enter password to start \033[0m"
 say "Enter password to start"
 sudo -v # Take sudo permission to not ask in future
+sudo softwareupdate --schedule off # Disable software updates
 # Set default shell to bash
 sudo chsh -s /bin/bash #For Root
 chsh -s /bin/bash #For user
