@@ -19,6 +19,20 @@ sudo cp ./dotfiles/.nanorc ~/.
 # Go to home directory
 cd || exit
 ln -sf ~/ ~/Desktop/ # Create shortcut to home in Desktop
+# Setup Mac Defaults
+defaults read > ~/defaults.txt # Save current defaults in home folder
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true # Show all filename extensions
+defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark" # Set dark mode
+defaults write com.apple.menuextra.battery ShowPercent -string "YES" # Show battery percentage
+defaults write com.apple.dock tilesize -int 40 # Set dock size to 40
+defaults write com.apple.dock wvous-bl-corner -int 5 # Start screensaver on bottom left hot-corner
+defaults write com.apple.dock wvous-bl-modifier -int 0 # Start screensaver on bottom left hot-corner
+defaults write com.apple.finder FXDefaultSearchScope -string "SCcf" # Search current folder
+defaults write com.apple.finder FXRemoveOldTrashItems -bool true # Remove trash after 30 days
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true # Show external hard drives on desktop
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true  # Show hard drives on desktop
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true  # Show removable media on desktop
+defaults write com.apple.screencapture show-thumbnail -bool false # Don't show thumbnail
 defaults write com.apple.screencapture location ~/Downloads/ # Save Screenshots in downloads
 # Setup git
 git config --global core.editor "nano"
