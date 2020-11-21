@@ -33,6 +33,7 @@ bash ./setup_mac/Main.sh
 
 * Nano
 * Node & npm
+* Cocoapods
 * Firebase CLI
 * GCloud CLI
 * Java
@@ -55,4 +56,3 @@ Signin to App Store with Apple Id
 * Screenshot - Disable show floating thumbnail
 * Calendar - Add google calendar
 * System Preferences
-

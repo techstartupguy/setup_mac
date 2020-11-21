@@ -153,6 +153,13 @@ brew install node@12 && brew info node@12
 which -a node && node --version
 which -a npm && npm --version
 
+# Install Cocoapods
+echo -e "\033[1;31m Install Cocoapods \033[0m"
+say "Install Cocoapods"
+which -a pod && pod --version
+brew install cocoapods && brew info cocoapods
+which -a pod && pod --version
+
 # Install Firebase
 echo -e "\033[1;31m Install Firebase \033[0m"
 say "Install Firebase"
