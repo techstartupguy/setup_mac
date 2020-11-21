@@ -21,6 +21,18 @@ sudo cp ./dotfiles/.nanorc ~/.
 cd || exit
 ln -sf ~/ ~/Desktop/ # Create shortcut to home in Desktop
 # Setup Mac Defaults
+sudo pmset -a disksleep 20 # Time in minutes before hard disks are spun down and put to sleep
+sudo pmset -a gpuswitch 2 # Automatically switch between graphics mode for better battery life
+sudo pmset -a halfdim 1 # Display sleep will use an intermediate half-brightness
+sudo pmset -a lidwake 1 # Wake the machine when the laptop lid is opened
+sudo pmset -a proximitywake 0 # Wake from sleep based on proximity of devices using same iCloud id
+sudo pmset -c sleep 15 # Charging: system sleep timer
+sudo pmset -b sleep 10 # Battery: system sleep timer
+sudo pmset -c displaysleep 10 # Charging: display sleep timer
+sudo pmset -b displaysleep 5 # Battery: display sleep timer
+sudo pmset -c womp 1 # Charging: Wake for network access
+sudo pmset -b lessbright 1 # Battery: slightly turn down display brightness when switching to this power source
+
 defaults read > ~/defaults.txt # Save current defaults in home folder
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true # Show all filename extensions
 defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark" # Set dark mode
