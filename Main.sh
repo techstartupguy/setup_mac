@@ -6,7 +6,6 @@ SECONDS=0
 echo -e "\033[1;31m Enter password to start \033[0m"
 say "Enter password to start"
 sudo -v # Take sudo permission to not ask in future
-sudo softwareupdate --schedule off # Disable software updates
 # Set default shell to bash
 sudo chsh -s /bin/bash #For Root
 chsh -s /bin/bash #For user
@@ -20,7 +19,17 @@ sudo cp ./dotfiles/.nanorc ~/.
 # Go to home directory
 cd || exit
 ln -sf ~/ ~/Desktop/ # Create shortcut to home in Desktop
-# Setup Mac Defaults
+# Setup git
+git config --global core.editor "nano"
+git config --global user.name "$(whoami)"
+git config --global user.email "$(whoami)@no-reply.com"
+git config --global core.excludesfile ~/.gitignore_global
+
+# Install Mac Defaults
+echo -e "\033[1;31m Install Mac Defaults \033[0m"
+say "Install Mac Defaults"
+sudo softwareupdate --schedule off # Disable software updates
+# Setup energy settings
 sudo pmset -a disksleep 20 # Time in minutes before hard disks are spun down and put to sleep
 sudo pmset -a gpuswitch 2 # Automatically switch between graphics mode for better battery life
 sudo pmset -a halfdim 1 # Display sleep will use an intermediate half-brightness
@@ -32,7 +41,7 @@ sudo pmset -c displaysleep 10 # Charging: display sleep timer
 sudo pmset -b displaysleep 5 # Battery: display sleep timer
 sudo pmset -c womp 1 # Charging: Wake for network access
 sudo pmset -b lessbright 1 # Battery: slightly turn down display brightness when switching to this power source
-
+# Setup defaults
 defaults read > ~/defaults.txt # Save current defaults in home folder
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true # Show all filename extensions
 defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark" # Set dark mode
@@ -50,11 +59,6 @@ defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true  # Show hard 
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true  # Show removable media on desktop
 defaults write com.apple.screencapture show-thumbnail -bool false # Don't show thumbnail
 defaults write com.apple.screencapture location ~/Downloads/ # Save Screenshots in downloads
-# Setup git
-git config --global core.editor "nano"
-git config --global user.name "$(whoami)"
-git config --global user.email "$(whoami)@no-reply.com"
-git config --global core.excludesfile ~/.gitignore_global
 
 # Install XCode CLI Tools
 echo -e "\033[1;31m Install XCode CLI Tools \033[0m"
