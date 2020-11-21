@@ -27,6 +27,9 @@ defaults write com.apple.menuextra.battery ShowPercent -string "YES" # Show batt
 defaults write com.apple.dock tilesize -int 40 # Set dock size to 40
 defaults write com.apple.dock wvous-bl-corner -int 5 # Start screensaver on bottom left hot-corner
 defaults write com.apple.dock wvous-bl-modifier -int 0 # Start screensaver on bottom left hot-corner
+defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv" # Set list view as default view
+defaults write com.apple.finder ShowPathbar -bool true # Show path bar at bottom of finder
+defaults write com.apple.finder SidebarWidth -int 150 # Set side bar width of finder
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf" # Search current folder
 defaults write com.apple.finder FXRemoveOldTrashItems -bool true # Remove trash after 30 days
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true # Show external hard drives on desktop
