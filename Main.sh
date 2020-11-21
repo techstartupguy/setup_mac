@@ -46,6 +46,7 @@ defaults read > ~/defaults.txt # Save current defaults in home folder
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true # Show all filename extensions
 defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark" # Set dark mode
 defaults write com.apple.menuextra.battery ShowPercent -string "YES" # Show battery percentage
+defaults write com.apple.dock show-recents -bool false # Disable recent apps in dock
 defaults write com.apple.dock tilesize -int 40 # Set dock size to 40
 defaults write com.apple.dock wvous-bl-corner -int 5 # Start screensaver on bottom left hot-corner
 defaults write com.apple.dock wvous-bl-modifier -int 0 # Start screensaver on bottom left hot-corner

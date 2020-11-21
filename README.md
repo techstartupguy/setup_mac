@@ -53,7 +53,6 @@ Signin to App Store with Apple Id
 * Keynote
 
 ## Step4: Configure Mac Settings
-* Dock - Set size, Set useful apps, Remove Recent apps
-* Screenshot - Disable show floating thumbnail
+* Dock - Set useful apps
 * Calendar - Add google calendar
 * System Preferences
