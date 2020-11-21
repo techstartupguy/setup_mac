@@ -16,7 +16,8 @@ bash ./setup_mac/Main.sh
 ```
 
 #### Software installed by script
-* Mac Setup
+* Dotfiles
+* Mac Defaults
 * XCode CLI Tools
 * Homebrew
 * Google Chrome
