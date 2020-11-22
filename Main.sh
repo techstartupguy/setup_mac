@@ -155,6 +155,10 @@ code --install-extension msjsdiag.vscode-react-native
 code --install-extension coenraads.bracket-pair-colorizer-2
 cp ~/setup_mac/settings.json ~/Library/Application\ Support/Code/User/settings.json
 
+# Install Fonts
+echo -e "\033[1;31m Install Fonts \033[0m"
+say "Install Fonts"
+brew cask install homebrew/cask-fonts/font-hack-nerd-font && brew cask info font-hack-nerd-font
 
 # Install Nano
 echo -e "\033[1;31m Install Nano \033[0m"

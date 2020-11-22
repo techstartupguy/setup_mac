@@ -32,6 +32,7 @@ bash ./setup_mac/Main.sh
 * Android-Studio
 * VS Code
 
+* Fonts
 * Nano
 * Node & npm
 * Cocoapods
