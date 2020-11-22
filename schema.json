@@ -13,7 +13,7 @@
                     "type": "number"
                 },
                 "ifscCode": {
-                    "type": "number"
+                    "type": "string"
                 }
             },
             "additionalProperties": false,
