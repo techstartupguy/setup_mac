@@ -1,47 +1,149 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema",
-    "title": "Accounts",
-    "description": "An account type",
-    "definitions": {
-        "bank": {
-            "type": "object",
-            "properties": {
-                "name": {
-                    "type": "string"
-                },
-                "accountNumber": {
-                    "type": "number"
-                },
-                "ifscCode": {
-                    "type": "string"
-                }
-            },
-            "additionalProperties": false,
-            "required": [
-                "name",
-                "accountNumber",
-                "ifscCode"
-            ]
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Accounts",
+  "description": "An account type",
+  "definitions": {
+    "online": {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string"
+        },
+        "pass": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string",
+          "format": "email"
         }
+      },
+      "required": ["username", "pass"]
     },
-    "type": "object",
-    "properties": {
-        "BankIndia": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "propertyNames": {
-                    "pattern": "^[A-Za-z][A-Za-z]*$"
-                },
-                "patternProperties": {
-                    "": {
-                        "type": "array",
-                        "items": {
-                            "$ref": "#/definitions/bank"
-                        }
-                    }
-                }
-            }
+    "card": {
+      "type": "object",
+      "properties": {
+        "provider": {
+          "type": "string",
+          "enum": ["MasterCard", "Visa", "RuPay", "Mastero"]
+        },
+        "cardNumber": {
+          "type": "number",
+          "minLength": 16,
+          "maxLength": 16
+        },
+        "validFrom": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 5
+        },
+        "validThru": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 5
+        },
+        "CVV": {
+          "type": "number",
+          "minLength": 3,
+          "maxLength": 3
+        },
+        "limit": {
+          "type": "string"
+        },
+        "withdrawlimit": {
+          "type": "string"
+        },
+        "checkedAt": {
+          "type": "string"
         }
+      },
+      "additionalProperties": false,
+      "required": ["provider", "cardNumber", "validThru", "CVV"]
+    },
+    "bank": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "accountNumber": {
+          "type": "number"
+        },
+        "ifscCode": {
+          "type": "string",
+          "pattern": "^[A-Z]{4}0[A-Z0-9]{6}$",
+          "minLength": 11,
+          "maxLength": 11
+        },
+        "swiftCode": {
+          "type": "string",
+          "pattern": "^[A-Z]{6}[A-Z0-9]{2}([A-Z0-9]{3})?$",
+          "minLength": 8,
+          "maxLength": 11
+        },
+        "branch": {
+          "type": "string"
+        },
+        "customerId": {
+          "type": "number"
+        },
+        "address": {
+          "type": "string"
+        },
+        "mailingAddress": {
+          "type": "string"
+        },
+        "mobile": {
+          "type": "number",
+          "minLength": 11,
+          "maxLength": 13
+        },
+        "nominee": {
+          "type": "string"
+        },
+        "aadhaar": {
+          "type": "number",
+          "minLength": 12,
+          "maxLength": 12
+        },
+        "email": {
+          "type": "string",
+          "format": "email"
+        },
+        "createdOn": {
+          "type": "string",
+          "format": "date"
+        },
+        "card": {
+          "$ref": "#/definitions/card"
+        },
+        "internetBanking": {
+          "$ref": "#/definitions/online"
+        }
+      },
+      "additionalProperties": false,
+      "required": ["name", "accountNumber", "ifscCode"]
     }
+  },
+  "type": "object",
+  "properties": {
+    "BankIndia": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "propertyNames": {
+          "pattern": "^[A-Za-z][A-Za-z]*$"
+        },
+        "patternProperties": {
+          "": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "$ref": "#/definitions/bank"
+            }
+          }
+        }
+      }
+    }
+  }
 }
