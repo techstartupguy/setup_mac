@@ -15,6 +15,10 @@
         "email": {
           "type": "string",
           "format": "email"
+        },
+        "link": {
+          "type": "string",
+          "format": "uri"
         }
       },
       "required": ["username", "pass"]
@@ -121,12 +125,12 @@
         }
       },
       "additionalProperties": false,
-      "required": ["name", "accountNumber", "ifscCode"]
+      "required": ["name", "accountNumber"]
     }
   },
   "type": "object",
   "properties": {
-    "BankIndia": {
+    "Bank": {
       "type": "array",
       "uniqueItems": true,
       "items": {
