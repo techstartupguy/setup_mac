@@ -112,7 +112,9 @@
   // Material Icon Theme
   // YAML
   "yaml.schemas": {
-    "/Users/gaurav/setup_mac/schema.json": ["**/Account*/*.yaml"]
+    "https://raw.githubusercontent.com/ggspark/setup_mac/master/schema.json": [
+      "**/Account*/*.yaml"
+    ]
   },
   // EditorConfig
   // Dart
