@@ -18,6 +18,7 @@ bash ./setup_mac/Main.sh
 #### Software installed by script
 * Dotfiles
 * Mac Defaults
+* Oh My Zsh
 * XCode CLI Tools
 * Homebrew
 * Google Chrome

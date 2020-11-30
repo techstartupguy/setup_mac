@@ -16,6 +16,7 @@ say "Install dotfiles"
 sudo cp ./dotfiles/.bash_profile ~/.
 sudo cp ./dotfiles/.gitignore_global ~/.
 sudo cp ./dotfiles/.nanorc ~/.
+sudo cp ./dotfiles/.zshrc ~/.
 # Go to home directory
 cd || exit
 ln -sf ~/ ~/Desktop/ # Create shortcut to home in Desktop
@@ -60,6 +61,12 @@ defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true  # Show hard 
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true  # Show removable media on desktop
 defaults write com.apple.screencapture show-thumbnail -bool false # Don't show thumbnail
 defaults write com.apple.screencapture location ~/Downloads/ # Save Screenshots in downloads
+
+# Install Oh My Zsh
+echo -e "\033[1;31m Install Oh My Zsh \033[0m"
+say "Install Oh My Zsh"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+sudo cp ./dotfiles/.zshrc ~/.
 
 # Install XCode CLI Tools
 echo -e "\033[1;31m Install XCode CLI Tools \033[0m"
