@@ -66,7 +66,6 @@ defaults write com.apple.screencapture location ~/Downloads/ # Save Screenshots 
 echo -e "\033[1;31m Install Oh My Zsh \033[0m"
 say "Install Oh My Zsh"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-sudo cp ./dotfiles/.zshrc ~/.
 
 # Install XCode CLI Tools
 echo -e "\033[1;31m Install XCode CLI Tools \033[0m"
