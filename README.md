@@ -57,4 +57,5 @@ Signin to App Store with Apple Id
 ## Step4: Configure Mac Settings
 * Dock - Set useful apps
 * Calendar - Add google calendar
-* System Preferences
+* System Preferences - Night shift
+* Safari - private window
