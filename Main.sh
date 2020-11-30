@@ -155,6 +155,7 @@ code --install-extension msjsdiag.vscode-react-native
 code --install-extension coenraads.bracket-pair-colorizer-2
 cp ~/setup_mac/settings.json ~/Library/Application\ Support/Code/User/settings.json
 
+
 # Install Fonts
 echo -e "\033[1;31m Install Fonts \033[0m"
 say "Install Fonts"
@@ -166,6 +167,12 @@ say "Install Nano"
 which -a nano && nano --version
 brew install nano && brew info nano
 which -a nano && nano --version
+
+# Install Java
+echo -e "\033[1;31m Install Java \033[0m"
+say "Install Java"
+brew cask install adoptopenjdk/openjdk/adoptopenjdk8 && brew cask info adoptopenjdk8
+which -a java && java -version
 
 # Install Node
 echo -e "\033[1;31m Install Node \033[0m"
@@ -185,13 +192,6 @@ which -a pod && pod --version
 brew install cocoapods && brew info cocoapods
 which -a pod && pod --version
 
-# Install Firebase
-echo -e "\033[1;31m Install Firebase \033[0m"
-say "Install Firebase"
-which -a firebase && firebase --version
-brew install firebase-cli && brew info firebase-cli
-which -a firebase && firebase --version
-
 # Install Gcloud
 echo -e "\033[1;31m Install Gcloud \033[0m"
 say "Install Gcloud"
@@ -200,11 +200,12 @@ brew cask install google-cloud-sdk && brew cask info google-cloud-sdk
 gcloud components update -q
 which -a gcloud && gcloud --version
 
-# Install Java
-echo -e "\033[1;31m Install Java \033[0m"
-say "Install Java"
-brew cask install adoptopenjdk/openjdk/adoptopenjdk8 && brew cask info adoptopenjdk8
-which -a java && java -version
+# Install Firebase
+echo -e "\033[1;31m Install Firebase \033[0m"
+say "Install Firebase"
+which -a firebase && firebase --version
+brew install firebase-cli && brew info firebase-cli
+which -a firebase && firebase --version
 
 # Install Android
 echo -e "\033[1;31m Install Android \033[0m"

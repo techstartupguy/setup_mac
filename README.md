@@ -34,11 +34,11 @@ bash ./setup_mac/Main.sh
 
 * Fonts
 * Nano
+* Java
 * Node & npm
 * Cocoapods
-* Firebase CLI
 * GCloud CLI
-* Java
+* Firebase CLI
 * Android
 * Flutter
 * Duti
