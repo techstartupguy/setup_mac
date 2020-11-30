@@ -81,6 +81,8 @@ which -a brew && brew --version
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" </dev/null
 brew upgrade
 brew upgrade --cask
+brew tap | grep caskroom/versions && brew untap caskroom/versions
+brew tap | grep homebrew/cask-versions && brew untap homebrew/cask-versions
 which -a brew && brew --version
 
 # Install Google Chrome
