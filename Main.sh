@@ -229,7 +229,7 @@ which -a adb && adb --version
 echo -e "\033[1;31m Install Flutter \033[0m"
 say "Install Flutter"
 which -a flutter && flutter --version
-brew install flschweiger/flutter/flutter && brew info flutter
+brew install --cask flutter && brew info --cask flutter
 flutter upgrade --force
 which -a flutter && flutter --version
 flutter doctor -v
