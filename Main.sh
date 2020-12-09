@@ -88,65 +88,65 @@ which -a brew && brew --version
 # Install Google Chrome
 echo -e "\033[1;31m Install Google Chrome \033[0m"
 say "Install Google Chrome"
-brew cask install google-chrome && brew cask info google-chrome
+brew install --cask google-chrome && brew info --cask google-chrome
 
 # Install Google Drive
 echo -e "\033[1;31m Install Google Drive \033[0m"
 say "Install Google Drive"
-brew cask install google-backup-and-sync && brew cask info google-backup-and-sync
+brew install --cask google-backup-and-sync && brew info --cask google-backup-and-sync
 ln -sf ~/Google\ Drive/ ~/Desktop/
 
 # Install Tor Browser
 echo -e "\033[1;31m Install Tor Browser \033[0m"
 say "Install Tor Browser"
-brew cask install tor-browser && brew cask info tor-browser
+brew install --cask tor-browser && brew info --cask tor-browser
 
 # Install Fliqlo Screensaver
 echo -e "\033[1;31m Install Fliqlo Screensaver \033[0m"
 say "Install Fliqlo Screensaver"
-brew cask install fliqlo && brew cask info fliqlo
+brew install --cask fliqlo && brew info --cask fliqlo
 
 # Install Slack
 echo -e "\033[1;31m Install Slack \033[0m"
 say "Install Slack"
-brew cask install slack && brew cask info slack
+brew install --cask slack && brew info --cask slack
 
 # Install VLC media player
 echo -e "\033[1;31m Install VLC media player \033[0m"
 say "Install VLC media player"
 which -a vlc && vlc --version
-brew cask install vlc && brew cask info vlc
+brew install --cask vlc && brew info --cask vlc
 which -a vlc && vlc --version
 
 # Install Libre Office
 echo -e "\033[1;31m Install Libre Office \033[0m"
 say "Install Libre Office"
 which -a soffice && soffice --version
-brew cask install libreoffice && brew cask info libreoffice
+brew install --cask libreoffice && brew info --cask libreoffice
 which -a soffice && soffice --version
 
 # Install VNC Viewer
 echo -e "\033[1;31m Install VNC Viewer \033[0m"
 say "Install VNC Viewer"
-brew cask install vnc-viewer && brew cask info vnc-viewer
+brew install --cask vnc-viewer && brew info --cask vnc-viewer
 
 # Install Sublime text
 echo -e "\033[1;31m Install Sublime text \033[0m"
 say "Install Sublime text"
 which -a subl && subl --version
-brew cask install sublime-text && brew cask info sublime-text
+brew install --cask sublime-text && brew info --cask sublime-text
 which -a subl && subl --version
 
 # Install Android Studio
 echo -e "\033[1;31m Install Android Studio \033[0m"
 say "Install Android Studio"
-brew cask install android-studio && brew cask info android-studio
+brew install --cask android-studio && brew info --cask android-studio
 
 # Install VS Code
 echo -e "\033[1;31m Install VS Code \033[0m"
 say "Install VS Code"
 which -a code && code --version
-brew cask install visual-studio-code && brew cask info visual-studio-code
+brew install --cask visual-studio-code && brew info --cask visual-studio-code
 which -a code && code --version
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension esbenp.prettier-vscode
@@ -167,7 +167,7 @@ cp ~/setup_mac/settings.json ~/Library/Application\ Support/Code/User/settings.j
 # Install Fonts
 echo -e "\033[1;31m Install Fonts \033[0m"
 say "Install Fonts"
-brew cask install homebrew/cask-fonts/font-hack-nerd-font && brew cask info font-hack-nerd-font
+brew install --cask homebrew/cask-fonts/font-hack-nerd-font && brew info --cask font-hack-nerd-font
 
 # Install Nano
 echo -e "\033[1;31m Install Nano \033[0m"
@@ -179,7 +179,7 @@ which -a nano && nano --version
 # Install Java
 echo -e "\033[1;31m Install Java \033[0m"
 say "Install Java"
-brew cask install adoptopenjdk/openjdk/adoptopenjdk8 && brew cask info adoptopenjdk8
+brew install --cask adoptopenjdk/openjdk/adoptopenjdk8 && brew info --cask adoptopenjdk8
 which -a java && java -version
 
 # Install Node
@@ -204,7 +204,7 @@ which -a pod && pod --version
 echo -e "\033[1;31m Install Gcloud \033[0m"
 say "Install Gcloud"
 which -a gcloud && gcloud --version
-brew cask install google-cloud-sdk && brew cask info google-cloud-sdk
+brew install --cask google-cloud-sdk && brew info --cask google-cloud-sdk
 gcloud components update -q
 which -a gcloud && gcloud --version
 
@@ -220,8 +220,8 @@ echo -e "\033[1;31m Install Android \033[0m"
 say "Install Android"
 which -a adb && adb --version
 brew install bundletool && brew info bundletool
-brew cask install android-platform-tools && brew cask info android-platform-tools
-brew cask install android-sdk && brew cask info android-sdk
+brew install --cask android-platform-tools && brew info --cask android-platform-tools
+brew install --cask android-sdk && brew info --cask android-sdk
 mkdir -p .android && touch ~/.android/repositories.cfg
 which -a adb && adb --version
 
