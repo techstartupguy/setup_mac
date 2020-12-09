@@ -51,6 +51,7 @@ defaults write com.apple.dock show-recents -bool false # Disable recent apps in 
 defaults write com.apple.dock tilesize -int 40 # Set dock size to 40
 defaults write com.apple.dock wvous-bl-corner -int 5 # Start screensaver on bottom left hot-corner
 defaults write com.apple.dock wvous-bl-modifier -int 0 # Start screensaver on bottom left hot-corner
+defaults write com.apple.dock ResetLaunchPad -bool true # Set launcher in default view
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv" # Set list view as default view
 defaults write com.apple.finder ShowPathbar -bool true # Show path bar at bottom of finder
 defaults write com.apple.finder SidebarWidth -int 150 # Set side bar width of finder
