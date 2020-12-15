@@ -17,14 +17,6 @@ sudo cp ./dotfiles/.bash_profile ~/.
 sudo cp ./dotfiles/.gitignore_global ~/.
 sudo cp ./dotfiles/.nanorc ~/.
 sudo cp ./dotfiles/.zshrc ~/.
-# Go to home directory
-cd || exit
-ln -sf ~/ ~/Desktop/ # Create shortcut to home in Desktop
-# Setup git
-git config --global core.editor "nano"
-git config --global user.name "$(whoami)"
-git config --global user.email "$(whoami)@no-reply.com"
-git config --global core.excludesfile ~/.gitignore_global
 
 # Install Mac Defaults
 echo -e "\033[1;31m Install Mac Defaults \033[0m"
@@ -62,6 +54,19 @@ defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true  # Show hard 
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true  # Show removable media on desktop
 defaults write com.apple.screencapture show-thumbnail -bool false # Don't show thumbnail
 defaults write com.apple.screencapture location ~/Downloads/ # Save Screenshots in downloads
+# Set one dark as default terminal theme
+[ $(defaults read com.apple.Terminal "Default Window Settings") = "OneDark" ] || open OneDark.terminal &&
+defaults write com.apple.Terminal "Default Window Settings" -string "OneDark" &&
+defaults write com.apple.Terminal "Startup Window Settings" -string "OneDark"
+# Setup git
+git config --global core.editor "nano"
+git config --global user.name "$(whoami)"
+git config --global user.email "$(whoami)@no-reply.com"
+git config --global core.excludesfile ~/.gitignore_global
+
+# Go to home directory
+cd || exit
+ln -sf ~/ ~/Desktop/ # Create shortcut to home in Desktop
 
 # Install Oh My Zsh
 echo -e "\033[1;31m Install Oh My Zsh \033[0m"
