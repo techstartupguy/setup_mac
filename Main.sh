@@ -6,9 +6,9 @@ SECONDS=0
 echo -e "\033[1;31m Enter password to start \033[0m"
 say "Enter password to start"
 sudo -v # Take sudo permission to not ask in future
-# Set default shell to bash
-sudo chsh -s /bin/bash #For Root
-chsh -s /bin/bash #For user
+# Set default shell to zsh
+sudo chsh -s /bin/zsh #For Root
+chsh -s /bin/zsh #For user
 
 # Install dotfiles
 echo -e "\033[1;31m Install dotfiles \033[0m"
