@@ -39,10 +39,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.pinnedTabSizing": "compact",
   "workbench.editor.tabSizing": "shrink",
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#303030",
-    "statusBar.noFolderBackground": "#222222"
-  },
+  "workbench.colorTheme": "One Dark Pro",
   // Window
   "window.autoDetectHighContrast": false,
   "window.restoreWindows": "none",

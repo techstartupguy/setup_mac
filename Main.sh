@@ -161,6 +161,7 @@ code --install-extension eamodio.gitlens
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension pkief.material-icon-theme
 code --install-extension redhat.vscode-yaml
+code --install-extension zhuangtongfa.material-theme
 code --install-extension editorconfig.editorconfig
 code --install-extension dart-code.dart-code
 code --install-extension dart-code.flutter
