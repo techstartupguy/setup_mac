@@ -44,7 +44,7 @@
   "window.autoDetectHighContrast": false,
   "window.restoreWindows": "none",
   "window.title": "${rootName}${separator}${activeEditorShort}",
-  "window.zoomLevel": 0.8,
+  "window.zoomLevel": 0.5,
   "window.newWindowDimensions": "offset",
   "window.openFilesInNewWindow": "on",
   "window.openFoldersInNewWindow": "on",
