@@ -13,8 +13,11 @@ export PATH=$ANDROID_HOME/tools:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 export PATH=$ANDROID_HOME/emulator:$PATH
 export PATH=~/.pub-cache/bin:$PATH
-export PATH=/usr/local/opt/node@14/bin:$PATH
-export PATH=/usr/local/opt/node@12/bin:$PATH
+
+# This loads nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Set your aliases
 alias ll='ls -alrth'
