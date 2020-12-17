@@ -36,7 +36,7 @@ bash ./setup_mac/Main.sh
 * Fonts
 * Nano
 * Java
-* Node npm nvm
+* Node,npm,yarn,nvm
 * Cocoapods
 * GCloud CLI
 * Firebase CLI
