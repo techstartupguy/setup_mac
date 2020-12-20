@@ -54,6 +54,16 @@ Signin to App Store with Apple Id
 * iMovies
 * Keynote
 
+* Zoom
+* Vysor
+* VirtualBox
+* Docker
+* Tunnelblick
+* React Native
+* AWS CLI
+* AWS Amplify
+
+
 ## Step4: Configure Mac Settings
 * Dock - Set useful apps
 * Calendar - Add google calendar
