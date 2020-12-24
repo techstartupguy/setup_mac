@@ -78,6 +78,7 @@ echo -e "\033[1;31m Install XCode CLI Tools \033[0m"
 say "Install XCode CLI Tools"
 which -a xcode-select && xcode-select --version
 xcode-select --install
+xcode-select --print-path
 which -a xcode-select && xcode-select --version
 
 # Install Homebrew
