@@ -26,7 +26,7 @@
   "workbench.sideBar.location": "left",
   "workbench.enableExperiments": false,
   "workbench.panel.opensMaximized": "never",
-  "workbench.activityBar.iconClickBehavior": "focus",
+  "workbench.activityBar.iconClickBehavior": "toggle",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.renderIndentGuides": "always",
   "workbench.tree.indent": 8,
