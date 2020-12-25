@@ -125,7 +125,7 @@
         }
       },
       "additionalProperties": false,
-      "required": ["holderName", "accountNumber"]
+      "required": ["holderName", "accountNumber", "nominee"]
     }
   },
   "type": "object",
