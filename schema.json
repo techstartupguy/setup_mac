@@ -121,7 +121,8 @@
           "$ref": "#/definitions/card"
         },
         "internetBanking": {
-          "$ref": "#/definitions/online"
+          "$ref": "#/definitions/online",
+          "checkedAt": "string"
         }
       },
       "additionalProperties": false,
