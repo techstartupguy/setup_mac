@@ -136,7 +136,7 @@
       "items": {
         "type": "object",
         "propertyNames": {
-          "pattern": "^[A-Z][A-Za-z ]*$"
+          "pattern": "^[A-Z][0-9A-Za-z ]*$"
         },
         "patternProperties": {
           "": {
