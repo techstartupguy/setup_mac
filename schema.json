@@ -156,6 +156,52 @@
       },
       "additionalProperties": false,
       "required": ["holderName", "accountNumber", "nominee"]
+    },
+    "cryptoAssets": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "address": {
+          "type": ["number", "string"]
+        },
+        "privateKey": {
+          "type": ["number", "string"]
+        }
+      },
+      "additionalProperties": false,
+      "required": ["name", "address", "privateKey"]
+    },
+    "crypto": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": ["number", "string"]
+        },
+        "pass": {
+          "type": "string"
+        },
+        "seed": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string",
+          "format": "email"
+        },
+        "createdOn": {
+          "type": "string",
+          "format": "date"
+        },
+        "assets": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/definitions/cryptoAssets"
+          }
+        }
+      },
+      "additionalProperties": false
     }
   },
   "type": "object",
@@ -211,7 +257,7 @@
             "type": "array",
             "uniqueItems": true,
             "items": {
-              "$ref": "#/definitions/bank"
+              "$ref": "#/definitions/crypto"
             }
           }
         }
