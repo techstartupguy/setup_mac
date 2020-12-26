@@ -50,6 +50,9 @@
     "card": {
       "type": "object",
       "properties": {
+        "name": {
+          "type": "string"
+        },
         "provider": {
           "type": "string",
           "enum": ["MasterCard", "Visa", "RuPay", "Mastero"]
@@ -146,6 +149,14 @@
         "createdOn": {
           "type": "string",
           "format": "date"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["Open", "Closed", "Dormant"]
+        },
+        "cheque": {
+          "type": "string",
+          "enum": ["Signed", "Unsigned", "Cancelled" ,"NA"]
         },
         "card": {
           "$ref": "#/definitions/card"
