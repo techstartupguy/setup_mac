@@ -249,6 +249,28 @@
         "creationDate",
         "maturityDate"
       ]
+    },
+    "disk": {
+      "type": "object",
+      "properties": {
+        "size": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "format": {
+          "type": "string"
+        },
+        "encryption": {
+          "type": "string"
+        },
+        "pass": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": ["size", "location", "format", "encryption", "pass"]
     }
   },
   "type": "object",
@@ -324,6 +346,25 @@
             "uniqueItems": true,
             "items": {
               "$ref": "#/definitions/investment"
+            }
+          }
+        }
+      }
+    },
+    "Disk": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "propertyNames": {
+          "pattern": "^[A-Z][0-9A-Za-z ]*$"
+        },
+        "patternProperties": {
+          "": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "$ref": "#/definitions/disk"
             }
           }
         }
