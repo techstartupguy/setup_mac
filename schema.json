@@ -202,6 +202,53 @@
         }
       },
       "additionalProperties": false
+    },
+    "investment": {
+      "type": "object",
+      "properties": {
+        "bankAccount": {
+          "type": ["number", "string"]
+        },
+        "depositAccount": {
+          "type": ["number", "string"]
+        },
+        "interestRate": {
+          "type": ["number", "string"]
+        },
+        "amount": {
+          "type": ["number", "string"]
+        },
+        "maturityAmount": {
+          "type": ["number", "string"]
+        },
+        "payout": {
+          "type": "string",
+          "enum": ["Monthly", "Quarterly", "Yearly", "LumpSum"]
+        },
+        "creationDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "maturityDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "allotmentDate": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "bankAccount",
+        "depositAccount",
+        "interestRate",
+        "amount",
+        "maturityAmount",
+        "payout",
+        "creationDate",
+        "maturityDate"
+      ]
     }
   },
   "type": "object",
@@ -258,6 +305,25 @@
             "uniqueItems": true,
             "items": {
               "$ref": "#/definitions/crypto"
+            }
+          }
+        }
+      }
+    },
+    "Investment": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "propertyNames": {
+          "pattern": "^[A-Z][0-9A-Za-z ]*$"
+        },
+        "patternProperties": {
+          "": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "$ref": "#/definitions/investment"
             }
           }
         }
