@@ -250,6 +250,42 @@
         "maturityDate"
       ]
     },
+    "insurance": {
+      "type": "object",
+      "properties": {
+        "company": {
+          "type": "string"
+        },
+        "policyNumber": {
+          "type": ["number", "string"]
+        },
+        "customerId": {
+          "type": ["number", "string"]
+        },
+        "holderName": {
+          "type": "string"
+        },
+        "agentName": {
+          "type": "string"
+        },
+        "vehicle": {
+          "type": "string"
+        },
+        "amount": {
+          "type": ["number", "string"]
+        },
+        "creationDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "maturityDate": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "additionalProperties": false,
+      "required": ["company", "policyNumber", "holderName"]
+    },
     "disk": {
       "type": "object",
       "properties": {
@@ -346,6 +382,25 @@
             "uniqueItems": true,
             "items": {
               "$ref": "#/definitions/investment"
+            }
+          }
+        }
+      }
+    },
+    "Insurance": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "propertyNames": {
+          "pattern": "^[A-Z][0-9A-Za-z ]*$"
+        },
+        "patternProperties": {
+          "": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "$ref": "#/definitions/insurance"
             }
           }
         }
