@@ -375,134 +375,106 @@
   "type": "object",
   "properties": {
     "Bank": {
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "object",
-        "propertyNames": {
-          "pattern": "^[A-Z][0-9A-Za-z ]*$"
-        },
-        "patternProperties": {
-          "": {
-            "type": "array",
-            "uniqueItems": true,
-            "items": {
-              "$ref": "#/definitions/bank"
-            }
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^[A-Z][0-9A-Za-z ]*$"
+      },
+      "patternProperties": {
+        "": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/definitions/bank"
           }
         }
       }
     },
     "Online": {
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "object",
-        "propertyNames": {
-          "pattern": "^[A-Z][0-9A-Za-z ]*$"
-        },
-        "patternProperties": {
-          "": {
-            "type": "array",
-            "uniqueItems": true,
-            "items": {
-              "$ref": "#/definitions/online"
-            }
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^[A-Z][0-9A-Za-z ]*$"
+      },
+      "patternProperties": {
+        "": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/definitions/online"
           }
         }
       }
     },
     "Crypto": {
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "object",
-        "propertyNames": {
-          "pattern": "^[A-Z][0-9A-Za-z ]*$"
-        },
-        "patternProperties": {
-          "": {
-            "type": "array",
-            "uniqueItems": true,
-            "items": {
-              "$ref": "#/definitions/crypto"
-            }
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^[A-Z][0-9A-Za-z ]*$"
+      },
+      "patternProperties": {
+        "": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/definitions/crypto"
           }
         }
       }
     },
     "Investment": {
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "object",
-        "propertyNames": {
-          "pattern": "^[A-Z][0-9A-Za-z ]*$"
-        },
-        "patternProperties": {
-          "": {
-            "type": "array",
-            "uniqueItems": true,
-            "items": {
-              "$ref": "#/definitions/investment"
-            }
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^[A-Z][0-9A-Za-z ]*$"
+      },
+      "patternProperties": {
+        "": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/definitions/investment"
           }
         }
       }
     },
     "Insurance": {
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "object",
-        "propertyNames": {
-          "pattern": "^[A-Z][0-9A-Za-z ]*$"
-        },
-        "patternProperties": {
-          "": {
-            "type": "array",
-            "uniqueItems": true,
-            "items": {
-              "$ref": "#/definitions/insurance"
-            }
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^[A-Z][0-9A-Za-z ]*$"
+      },
+      "patternProperties": {
+        "": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/definitions/insurance"
           }
         }
       }
     },
     "Property": {
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "object",
-        "propertyNames": {
-          "pattern": "^[A-Z][0-9A-Za-z ]*$"
-        },
-        "patternProperties": {
-          "": {
-            "type": "array",
-            "uniqueItems": true,
-            "items": {
-              "$ref": "#/definitions/property"
-            }
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^[A-Z][0-9A-Za-z ]*$"
+      },
+      "patternProperties": {
+        "": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/definitions/property"
           }
         }
       }
     },
     "Disk": {
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "object",
-        "propertyNames": {
-          "pattern": "^[A-Z][0-9A-Za-z ]*$"
-        },
-        "patternProperties": {
-          "": {
-            "type": "array",
-            "uniqueItems": true,
-            "items": {
-              "$ref": "#/definitions/disk"
-            }
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^[A-Z][0-9A-Za-z ]*$"
+      },
+      "patternProperties": {
+        "": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/definitions/disk"
           }
         }
       }
