@@ -70,7 +70,7 @@
           "type": "string"
         },
         "accountNumber": {
-          "type": "number"
+          "type": ["number", "string"]
         },
         "ifscCode": {
           "type": "string",
@@ -86,6 +86,12 @@
         },
         "branch": {
           "type": "string"
+        },
+        "bankCode": {
+          "type": ["number", "string"]
+        },
+        "branchCode": {
+          "type": ["number", "string"]
         },
         "customerId": {
           "type": "number"
