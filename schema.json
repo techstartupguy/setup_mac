@@ -286,6 +286,46 @@
       "additionalProperties": false,
       "required": ["company", "policyNumber", "holderName"]
     },
+    "property": {
+      "type": "object",
+      "properties": {
+        "owner": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        },
+        "area": {
+          "type": ["number", "string"]
+        },
+        "location": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "value": {
+          "type": ["number", "string"]
+        },
+        "registry": {
+          "type": "string"
+        },
+        "purchaseDate": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "owner",
+        "address",
+        "area",
+        "location",
+        "status",
+        "value",
+        "registry"
+      ]
+    },
     "disk": {
       "type": "object",
       "properties": {
@@ -401,6 +441,25 @@
             "uniqueItems": true,
             "items": {
               "$ref": "#/definitions/insurance"
+            }
+          }
+        }
+      }
+    },
+    "Property": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "propertyNames": {
+          "pattern": "^[A-Z][0-9A-Za-z ]*$"
+        },
+        "patternProperties": {
+          "": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "$ref": "#/definitions/property"
             }
           }
         }
