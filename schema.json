@@ -7,18 +7,42 @@
       "type": "object",
       "properties": {
         "username": {
-          "type": "string"
+          "type": ["number", "string"]
         },
         "pass": {
           "type": "string"
+        },
+        "pin": {
+          "type": "number"
         },
         "email": {
           "type": "string",
           "format": "email"
         },
+        "createdOn": {
+          "type": "string",
+          "format": "date"
+        },
+        "mobile": {
+          "type": "number",
+          "minLength": 11,
+          "maxLength": 13
+        },
+        "bank": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        },
+        "mailingAddress": {
+          "type": "string"
+        },
         "link": {
           "type": "string",
           "format": "uri"
+        },
+        "authenticator": {
+          "type": "string"
         }
       },
       "required": ["username", "pass"]
@@ -137,6 +161,44 @@
   "type": "object",
   "properties": {
     "Bank": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "propertyNames": {
+          "pattern": "^[A-Z][0-9A-Za-z ]*$"
+        },
+        "patternProperties": {
+          "": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "$ref": "#/definitions/bank"
+            }
+          }
+        }
+      }
+    },
+    "Online": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "propertyNames": {
+          "pattern": "^[A-Z][0-9A-Za-z ]*$"
+        },
+        "patternProperties": {
+          "": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "$ref": "#/definitions/online"
+            }
+          }
+        }
+      }
+    },
+    "Crypto": {
       "type": "array",
       "uniqueItems": true,
       "items": {
