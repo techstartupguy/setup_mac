@@ -156,7 +156,7 @@
         },
         "cheque": {
           "type": "string",
-          "enum": ["Signed", "Unsigned", "Cancelled" ,"NA"]
+          "enum": ["Signed", "Unsigned", "Cancelled", "NA"]
         },
         "card": {
           "$ref": "#/definitions/card"
@@ -217,6 +217,12 @@
     "investment": {
       "type": "object",
       "properties": {
+        "holderName": {
+          "type": "string"
+        },
+        "nominee": {
+          "type": "string"
+        },
         "bankAccount": {
           "type": ["number", "string"]
         },
@@ -292,6 +298,12 @@
         "maturityDate": {
           "type": "string",
           "format": "date"
+        },
+        "nominee": {
+          "type": "string"
+        },
+        "companyAddress": {
+          "type": "string"
         }
       },
       "additionalProperties": false,
