@@ -35,6 +35,7 @@ bash ./setup_mac/Main.sh
 
 * Fonts
 * Nano
+* JQ
 * Java
 * Node,npm,yarn,nvm
 * Cocoapods

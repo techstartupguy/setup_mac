@@ -184,6 +184,13 @@ which -a nano && nano --version
 brew install nano && brew info nano
 which -a nano && nano --version
 
+# Install JQ
+echo -e "\033[1;31m Install JQ \033[0m"
+say "Install JQ"
+which -a jq && jq --version
+brew install jq && brew info jq
+which -a jq && jq --version
+
 # Install Java
 echo -e "\033[1;31m Install Java \033[0m"
 say "Install Java"
