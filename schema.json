@@ -13,7 +13,7 @@
           "type": "string"
         },
         "pin": {
-          "type": "number"
+          "type": ["number", "string"]
         },
         "email": {
           "type": "string",
