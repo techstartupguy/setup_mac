@@ -43,8 +43,20 @@
         },
         "authenticator": {
           "type": "string"
+        },
+        "recoveryEmail": {
+          "type": "string",
+          "format": "email"
+        },
+        "recoveryCodes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": ["number", "string"]
+          }
         }
       },
+      "additionalProperties": true,
       "required": ["username", "pass"]
     },
     "card": {
