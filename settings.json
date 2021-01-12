@@ -113,6 +113,7 @@
       "**/Account*/*.yaml"
     ]
   },
+  // One Dark Pro
   // EditorConfig
   // Dart
   "[dart]": {
@@ -125,7 +126,6 @@
   "dart.analysisServerFolding": false,
   // Flutter
   // ES7 React/Redux/GraphQL/React-Native snippets
-  // React Native Tools
   // Bracket Pair Colorizer 2
   "bracket-pair-colorizer-2.colors": [
     "Gold",
@@ -136,6 +136,8 @@
     "DarkOrange",
     "Cornsilk"
   ],
+  // React Native Tools
+  // Rainbow CSV
   // Other
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always"
