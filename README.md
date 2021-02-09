@@ -41,6 +41,8 @@ bash ./setup_mac/Main.sh
 * Cocoapods
 * GCloud CLI
 * Firebase CLI
+* AWS CLI
+* Amplify CLI
 * Android
 * Flutter
 * Duti

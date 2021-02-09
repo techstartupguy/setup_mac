@@ -233,6 +233,20 @@ which -a firebase && firebase --version
 brew install firebase-cli && brew info firebase-cli
 which -a firebase && firebase --version
 
+# Install AWS
+echo -e "\033[1;31m Install AWS \033[0m"
+say "Install AWS"
+which -a aws && aws --version
+brew install awscli && brew info awscli
+which -a aws && aws --version
+
+# Install Amplify
+echo -e "\033[1;31m Install Amplify \033[0m"
+say "Install Amplify"
+which -a amplify && amplify --version
+npm install -g @aws-amplify/cli
+which -a amplify && amplify --version
+
 # Install Android
 echo -e "\033[1;31m Install Android \033[0m"
 say "Install Android"
