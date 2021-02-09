@@ -7,5 +7,8 @@ HIST_STAMPS="yyyy-mm-dd"
 plugins=(git) # Example format: plugins=(rails git textmate ruby lighthouse)
 source $ZSH/oh-my-zsh.sh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+
 # Set your aliases
 alias ll='ls -alrth'
