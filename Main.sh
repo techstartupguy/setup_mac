@@ -245,6 +245,7 @@ echo -e "\033[1;31m Install Amplify \033[0m"
 say "Install Amplify"
 which -a amplify && amplify --version
 npm install -g @aws-amplify/cli
+amplify configure --usage-data-off
 which -a amplify && amplify --version
 
 # Install Android
@@ -264,6 +265,7 @@ which -a flutter && flutter --version
 brew install --cask flutter && brew info --cask flutter
 flutter upgrade --force
 which -a flutter && flutter --version
+flutter config --no-analytics
 flutter doctor -v
 
 # Install Duti
