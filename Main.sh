@@ -72,6 +72,7 @@ ln -sf ~/ ~/Desktop/ # Create shortcut to home in Desktop
 echo -e "\033[1;31m Install Oh My Zsh \033[0m"
 say "Install Oh My Zsh"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+brew install zsh-autosuggestions && brew info zsh-autosuggestions
 
 # Install XCode CLI Tools
 echo -e "\033[1;31m Install XCode CLI Tools \033[0m"

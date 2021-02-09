@@ -6,5 +6,6 @@ DISABLE_UNTRACKED_FILES_DIRTY="true" # disable marking untracked files under VCS
 HIST_STAMPS="yyyy-mm-dd"
 plugins=(git) # Example format: plugins=(rails git textmate ruby lighthouse)
 source $ZSH/oh-my-zsh.sh
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Set your aliases
 alias ll='ls -alrth'
