@@ -208,7 +208,7 @@ brew install node && brew info node
 brew install yarn && brew info yarn
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 source ~/.nvm/nvm.sh
-nvm install 'lts/*' --reinstall-packages-from=default --latest-npm
+nvm install 'lts/*' --default --reinstall-packages-from='lts/*' --latest-npm
 which -a node && node --version
 which -a npm && npm --version
 
