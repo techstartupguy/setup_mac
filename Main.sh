@@ -168,6 +168,7 @@ code --install-extension editorconfig.editorconfig
 code --install-extension dart-code.dart-code
 code --install-extension dart-code.flutter
 code --install-extension dsznajder.es7-react-js-snippets
+code --install-extension naumovs.color-highlight
 code --install-extension coenraads.bracket-pair-colorizer-2
 code --install-extension msjsdiag.vscode-react-native
 code --install-extension mechatroner.rainbow-csv
