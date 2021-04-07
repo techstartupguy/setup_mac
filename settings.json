@@ -87,6 +87,10 @@
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.autoRepositoryDetection": "subFolders",
+  // Python
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
   // ESLint
   // Prettier
   "prettier.enable": true, //Default

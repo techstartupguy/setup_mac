@@ -38,6 +38,7 @@ bash ./setup_mac/Main.sh
 * JQ
 * Java
 * Node,npm,yarn,nvm
+* Python
 * Cocoapods
 * GCloud CLI
 * Firebase CLI

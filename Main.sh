@@ -156,6 +156,7 @@ say "Install VS Code"
 which -a code && code --version
 brew install --cask visual-studio-code && brew info --cask visual-studio-code
 which -a code && code --version
+code --install-extension ms-python.python
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension esbenp.prettier-vscode
 code --install-extension visualstudioexptteam.vscodeintellicode
@@ -216,6 +217,15 @@ nvm install-latest-npm
 nvm ls
 which -a node && node --version
 which -a npm && npm --version
+
+# Install Python
+echo -e "\033[1;31m Install Python \033[0m"
+say "Install Python"
+which -a python3 && python3 --version
+which -a pip3 && pip3 --version
+brew install python3 && brew info python3
+which -a python3 && python3 --version
+which -a pip3 && pip3 --version
 
 # Install Cocoapods
 echo -e "\033[1;31m Install Cocoapods \033[0m"
