@@ -314,6 +314,7 @@ duti -s com.microsoft.VSCode .TXT all
 duti -s com.microsoft.VSCode .YAML all
 duti -s com.microsoft.VSCode .JSON all
 duti -s com.microsoft.VSCode .CSV all
+duti -s com.microsoft.VSCode .PY all
 
 
 # Complete
