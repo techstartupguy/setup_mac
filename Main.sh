@@ -224,6 +224,7 @@ say "Install Python"
 which -a python3 && python3 --version
 which -a pip3 && pip3 --version
 brew install python3 && brew info python3
+pip3 install pylint
 which -a python3 && python3 --version
 which -a pip3 && pip3 --version
 
