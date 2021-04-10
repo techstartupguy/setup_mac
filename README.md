@@ -64,8 +64,6 @@ Signin to App Store with Apple Id
 * Docker
 * Tunnelblick
 * React Native
-* AWS CLI
-* AWS Amplify
 
 
 ## Step4: Configure Mac Settings
