@@ -186,8 +186,13 @@ which -a VBoxManage && VBoxManage --version
 echo -e "\033[1;31m Install Docker \033[0m"
 say "Install Docker"
 which -a docker && docker --version
+which -a docker-compose && docker-compose --version
+which -a docker-machine && docker-machine --version
 brew install --cask docker && brew info --cask docker
+brew install docker-machine && brew info docker-machine
 which -a docker && docker --version
+which -a docker-compose && docker-compose --version
+which -a docker-machine && docker-machine --version
 
 # Install Fonts
 echo -e "\033[1;31m Install Fonts \033[0m"
