@@ -175,6 +175,19 @@ code --install-extension msjsdiag.vscode-react-native
 code --install-extension mechatroner.rainbow-csv
 cp ~/setup_mac/settings.json ~/Library/Application\ Support/Code/User/settings.json
 
+# Install VirtualBox
+echo -e "\033[1;31m Install VirtualBox \033[0m"
+say "Install VirtualBox"
+which -a VBoxManage && VBoxManage --version
+brew install --cask virtualbox && brew info --cask virtualbox
+which -a VBoxManage && VBoxManage --version
+
+#Install Docker
+echo -e "\033[1;31m Install Docker \033[0m"
+say "Install Docker"
+which -a docker && docker --version
+brew install --cask docker && brew info --cask docker
+which -a docker && docker --version
 
 # Install Fonts
 echo -e "\033[1;31m Install Fonts \033[0m"

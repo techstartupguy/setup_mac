@@ -32,6 +32,8 @@ bash ./setup_mac/Main.sh
 * Sublime text
 * Android-Studio
 * VS Code
+* VirtualBox
+* Docker
 
 * Fonts
 * Nano
@@ -60,8 +62,6 @@ Signin to App Store with Apple Id
 
 * Zoom
 * Vysor
-* VirtualBox
-* Docker
 * Tunnelblick
 * React Native
 
