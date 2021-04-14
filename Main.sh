@@ -161,6 +161,7 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension esbenp.prettier-vscode
 code --install-extension visualstudioexptteam.vscodeintellicode
 code --install-extension eamodio.gitlens
+code --install-extension ms-azuretools.vscode-docker
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension pkief.material-icon-theme
 code --install-extension redhat.vscode-yaml

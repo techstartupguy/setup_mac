@@ -109,6 +109,8 @@
   // VS IntelliCode
   // GitLens
   "gitlens.hovers.currentLine.over": "annotation",
+  // Docker
+  "docker.showStartPage": false,
   // Debugger for Chrome
   // Material Icon Theme
   // YAML
