@@ -304,6 +304,13 @@ which -a flutter && flutter --version
 flutter config --no-analytics
 flutter doctor -v
 
+# Install Scrcpy
+echo -e "\033[1;31m Install Scrcpy \033[0m"
+say "Install Scrcpy"
+which -a scrcpy && scrcpy --version
+brew install scrcpy && brew info scrcpy
+which -a scrcpy && scrcpy --version
+
 # Install Duti
 echo -e "\033[1;31m Install Duti \033[0m"
 say "Install Duti"

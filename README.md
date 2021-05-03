@@ -48,6 +48,7 @@ bash ./setup_mac/Main.sh
 * Amplify CLI
 * Android
 * Flutter
+* Scrcpy
 * Duti
 
 
@@ -61,7 +62,6 @@ Signin to App Store with Apple Id
 * Keynote
 
 * Zoom
-* Vysor
 * Tunnelblick
 * React Native
 
