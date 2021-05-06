@@ -77,7 +77,7 @@
   },
   "scm.alwaysShowRepositories": true,
   "scm.defaultViewMode": "tree",
-  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.fontSize": 11,
   // Application
   "telemetry.enableTelemetry": false,
