@@ -103,7 +103,7 @@
   "prettier.jsxSingleQuote": true, //false
   "prettier.trailingComma": "es5", //Default
   "prettier.bracketSpacing": true, //Default
-  "prettier.jsxBracketSameLine": false, //Default
+  "prettier.jsxBracketSameLine": true, //false
   "prettier.arrowParens": "always", //Default
   "prettier.endOfLine": "lf", //Default
   // VS IntelliCode
