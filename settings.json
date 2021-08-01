@@ -146,5 +146,7 @@
   // Rainbow CSV
   // Other
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "redhat.telemetry.enabled": false,
+  "security.workspace.trust.enabled": false
 }
