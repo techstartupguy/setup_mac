@@ -217,6 +217,7 @@ which -a jq && jq --version
 echo -e "\033[1;31m Install Java \033[0m"
 say "Install Java"
 brew install --cask adoptopenjdk/openjdk/adoptopenjdk8 && brew info --cask adoptopenjdk8
+brew install --cask adoptopenjdk/openjdk/adoptopenjdk11 && brew info --cask adoptopenjdk11
 which -a java && java -version
 
 # Install Node
