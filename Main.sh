@@ -101,7 +101,7 @@ brew install --cask google-chrome && brew info --cask google-chrome
 # Install Google Drive
 echo -e "\033[1;31m Install Google Drive \033[0m"
 say "Install Google Drive"
-brew install --cask google-backup-and-sync && brew info --cask google-backup-and-sync
+brew install --cask google-drive && brew info --cask google-drive
 ln -sf ~/Google\ Drive/ ~/Desktop/
 
 # Install Tor Browser
