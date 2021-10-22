@@ -305,6 +305,13 @@ which -a flutter && flutter --version
 flutter config --no-analytics
 flutter doctor -v
 
+# Install React Native
+echo -e "\033[1;31m Install React Native \033[0m"
+say "Install React Native"
+which -a watchman && watchman --version
+brew install watchman && brew info watchman
+which -a watchman && watchman --version
+
 # Install Scrcpy
 echo -e "\033[1;31m Install Scrcpy \033[0m"
 say "Install Scrcpy"

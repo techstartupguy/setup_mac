@@ -48,6 +48,7 @@ bash ./setup_mac/Main.sh
 * Amplify CLI
 * Android
 * Flutter
+* React Native
 * Scrcpy
 * Duti
 
