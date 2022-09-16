@@ -156,20 +156,18 @@ which -a code && code --version
 brew install --cask visual-studio-code && brew info --cask visual-studio-code
 which -a code && code --version
 code --install-extension ms-python.python
-code --install-extension dbaeumer.vscode-eslint
 code --install-extension esbenp.prettier-vscode
+code --install-extension dbaeumer.vscode-eslint
 code --install-extension visualstudioexptteam.vscodeintellicode
-code --install-extension eamodio.gitlens
 code --install-extension ms-azuretools.vscode-docker
-code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension eamodio.gitlens
 code --install-extension pkief.material-icon-theme
 code --install-extension redhat.vscode-yaml
+code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension zhuangtongfa.material-theme
 code --install-extension editorconfig.editorconfig
 code --install-extension dart-code.dart-code
-code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension dart-code.flutter
-code --install-extension coenraads.bracket-pair-colorizer-2
 code --install-extension naumovs.color-highlight
 code --install-extension msjsdiag.vscode-react-native
 code --install-extension mechatroner.rainbow-csv

@@ -18,6 +18,8 @@
     "source.fixAll": true
   },
   "editor.minimap.maxColumn": 80,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
   "files.autoSave": "afterDelay",
   "files.autoGuessEncoding": true,
   "files.trimFinalNewlines": true,
@@ -44,7 +46,6 @@
   "window.autoDetectHighContrast": false,
   "window.restoreWindows": "none",
   "window.title": "${rootName}${separator}${activeEditorShort}",
-  "window.zoomLevel": 0.5,
   "window.newWindowDimensions": "offset",
   "window.openFilesInNewWindow": "on",
   "window.openFoldersInNewWindow": "on",
@@ -80,8 +81,7 @@
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.fontSize": 11,
   // Application
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
+  "telemetry.telemetryLevel": "off",
 
   // Git
   "git.enableSmartCommit": true,
@@ -103,14 +103,13 @@
   "prettier.jsxSingleQuote": true, //false
   "prettier.trailingComma": "es5", //Default
   "prettier.bracketSpacing": true, //Default
-  "prettier.jsxBracketSameLine": true, //false
+  "prettier.bracketSameLine": true, //false
   "prettier.arrowParens": "always", //Default
   "prettier.endOfLine": "lf", //Default
   // VS IntelliCode
   // GitLens
   "gitlens.hovers.currentLine.over": "annotation",
   // Docker
-  "docker.showStartPage": false,
   // Debugger for Chrome
   // Material Icon Theme
   // YAML
@@ -125,28 +124,15 @@
   "[dart]": {
     "editor.defaultFormatter": "Dart-Code.dart-code"
   },
-  "dart.debugExternalLibraries": false,
   "dart.debugSdkLibraries": false,
-  "dart.allowAnalytics": false,
   "dart.devToolsBrowser": "default",
   "dart.analysisServerFolding": false,
   // Flutter
   // ES7 React/Redux/GraphQL/React-Native snippets
-  // Bracket Pair Colorizer 2
-  "bracket-pair-colorizer-2.colors": [
-    "Gold",
-    "Orchid",
-    "LightSkyBlue",
-    "Salmon",
-    "LawnGreen",
-    "DarkOrange",
-    "Cornsilk"
-  ],
   // React Native Tools
   // Rainbow CSV
   // Other
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "redhat.telemetry.enabled": false,
-  "security.workspace.trust.enabled": false
+  "redhat.telemetry.enabled": false
 }
