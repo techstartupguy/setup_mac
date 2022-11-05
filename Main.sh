@@ -293,7 +293,7 @@ brew install --cask android-sdk && brew info --cask android-sdk
 mkdir -p .android && touch ~/.android/repositories.cfg
 mkdir -p ~/Library/Android/sdk
 cd ~/Library/Android/sdk
-wget https://dl.google.com/android/repository/commandlinetools-mac-8092744_latest.zip
+curl -O https://dl.google.com/android/repository/commandlinetools-mac-8092744_latest.zip
 unzip -o commandlinetools-mac-8092744_latest.zip
 rm commandlinetools-mac-8092744_latest.zip
 yes | cmdline-tools/bin/sdkmanager --sdk_root=./ --update
