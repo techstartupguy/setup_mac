@@ -291,6 +291,15 @@ brew install bundletool && brew info bundletool
 brew install --cask android-platform-tools && brew info --cask android-platform-tools
 brew install --cask android-sdk && brew info --cask android-sdk
 mkdir -p .android && touch ~/.android/repositories.cfg
+mkdir -p ~/Library/Android/sdk
+cd ~/Library/Android/sdk
+wget https://dl.google.com/android/repository/commandlinetools-mac-8092744_latest.zip
+unzip -o commandlinetools-mac-8092744_latest.zip
+rm commandlinetools-mac-8092744_latest.zip
+yes | cmdline-tools/bin/sdkmanager --sdk_root=./ --update
+yes | cmdline-tools/bin/sdkmanager --sdk_root=./ --licenses
+yes | cmdline-tools/bin/sdkmanager --sdk_root=./ "platform-tools" "platforms;android-30" "platforms;android-31" "build-tools;30.0.3" "build-tools;31.0.0" "ndk-bundle"
+cd
 which -a adb && adb --version
 
 # Install Flutter
@@ -307,6 +316,7 @@ flutter doctor -v
 echo -e "\033[1;31m Install React Native \033[0m"
 say "Install React Native"
 which -a watchman && watchman --version
+brew install --cask flipper && brew info --cask flipper
 brew install watchman && brew info watchman
 which -a watchman && watchman --version
 
