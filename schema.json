@@ -171,7 +171,19 @@
           "enum": ["Signed", "Unsigned", "Cancelled", "NA"]
         },
         "card": {
-          "$ref": "#/definitions/card"
+          "type": "object",
+          "propertyNames": {
+            "pattern": "^[A-Z][0-9A-Za-z ]*$"
+          },
+          "patternProperties": {
+            "": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "$ref": "#/definitions/card"
+              }
+            }
+          }
         },
         "internetBanking": {
           "$ref": "#/definitions/online"
