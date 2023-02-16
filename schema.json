@@ -111,6 +111,11 @@
         "accountNumber": {
           "type": ["number", "string"]
         },
+        "routingNumber": {
+          "type": ["number", "string"],
+          "minLength": 9,
+          "maxLength": 9
+        },
         "ifscCode": {
           "type": "string",
           "pattern": "^[A-Z]{4}0[A-Z0-9]{6}$",
