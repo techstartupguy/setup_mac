@@ -97,6 +97,11 @@
         },
         "checkedAt": {
           "type": "string"
+        },
+        "pin": {
+          "type": "number",
+          "minLength": 4,
+          "maxLength": 6
         }
       },
       "additionalProperties": false,
