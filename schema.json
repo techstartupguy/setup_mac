@@ -105,7 +105,7 @@
         }
       },
       "additionalProperties": false,
-      "required": ["provider", "cardNumber", "validThru", "CVV"]
+      "required": ["cardNumber", "validThru"]
     },
     "bank": {
       "type": "object",
