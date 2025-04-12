@@ -11,7 +11,7 @@ This is a repository containing script for Mac settings
 
 ```sh
 cd $HOME
-git clone https://github.com/ggspark/setup_mac
+git clone https://github.com/techstartupguy/setup_mac
 bash ./setup_mac/Main.sh
 ```
 
