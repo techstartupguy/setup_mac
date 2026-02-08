@@ -281,7 +281,7 @@
           "format": "date"
         }
       },
-      "additionalProperties": false,
+      "additionalProperties": true,
       "required": [
         "bankAccount",
         "depositAccount",
