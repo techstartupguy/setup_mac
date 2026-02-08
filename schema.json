@@ -145,6 +145,9 @@
         "customerId": {
           "type": "number"
         },
+        "id": {
+          "type": "string"
+        },
         "address": {
           "type": "string"
         },
